@@ -1,0 +1,3052 @@
+[
+  {
+    "id": "742722e4.073ffc",
+    "type": "tab",
+    "label": "Weather"
+  },
+  {
+    "id": "84100be2.7beff8",
+    "type": "tab",
+    "label": "UI"
+  },
+  {
+    "id": "54642772.ab9bd8",
+    "type": "tab",
+    "label": "Test"
+  },
+  {
+    "id": "c909a211.266ac",
+    "type": "tab",
+    "label": "Repair"
+  },
+  {
+    "id": "473b6f2e.8a153",
+    "type": "tab",
+    "label": "llweather"
+  },
+  {
+    "id": "ae0cc548.49bd68",
+    "type": "subflow",
+    "name": "Open Weather Map Subflow",
+    "info": "Gets weather forecast data from OpenWeatherMap.com",
+    "in": [
+      {
+        "x": 63.25,
+        "y": 158,
+        "wires": [
+          {
+            "id": "6b73a903.948c58"
+          },
+          {
+            "id": "4dc240cd.dec9b8"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 750.6448974609375,
+        "y": 221.09091186523438,
+        "wires": [
+          {
+            "id": "bc82b74c.338168",
+            "port": 0
+          },
+          {
+            "id": "127a1437.dbfd9c",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ab1502c9.89084",
+    "type": "subflow",
+    "name": "Weather Online Subflow",
+    "info": "Gets weather forecast data from WeatherOnline.com",
+    "in": [
+      {
+        "x": 50.24998474121094,
+        "y": 210,
+        "wires": [
+          {
+            "id": "51636b42.ae9c94"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 772.25,
+        "y": 261,
+        "wires": [
+          {
+            "id": "c979843.f368678",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8055167a.7faae8",
+    "type": "subflow",
+    "name": "Weather Underground Subflow",
+    "info": "",
+    "in": [
+      {
+        "x": 26,
+        "y": 133,
+        "wires": [
+          {
+            "id": "c0679480.a5403"
+          },
+          {
+            "id": "ca67f02a.35981"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 857,
+        "y": 251,
+        "wires": [
+          {
+            "id": "2087b368.0a27ec",
+            "port": 0
+          },
+          {
+            "id": "43c34ecf.bc3cb",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f885654.f077a98",
+    "type": "subflow",
+    "name": "DarkSky Subflow",
+    "info": "",
+    "in": [
+      {
+        "x": 142,
+        "y": 130,
+        "wires": [
+          {
+            "id": "ca5f21d2.35a0e"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 785,
+        "y": 135,
+        "wires": [
+          {
+            "id": "eb554f2.f14aab",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae878406.8d6b18",
+    "type": "subflow",
+    "name": "Bluemix Weather Subflow",
+    "info": "",
+    "in": [
+      {
+        "x": 75,
+        "y": 93,
+        "wires": [
+          {
+            "id": "81ba7dbe.3472"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 1138,
+        "y": 124,
+        "wires": [
+          {
+            "id": "23f010c9.e1c14",
+            "port": 0
+          },
+          {
+            "id": "3ffd80be.cb277",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bfabf257.2b6d8",
+    "type": "subflow",
+    "name": "YR.NO Subflow",
+    "info": "",
+    "in": [
+      {
+        "x": 8.500015258789062,
+        "y": 132.60000610351562,
+        "wires": [
+          {
+            "id": "a26dfd5d.e1366"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 747.9000396728516,
+        "y": 189.60000610351562,
+        "wires": [
+          {
+            "id": "90fa16f2.a5df08",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52d9a622.ad2658",
+    "type": "subflow",
+    "name": "BlueMix Current Only",
+    "info": "",
+    "in": [
+      {
+        "x": 105,
+        "y": 121,
+        "wires": [
+          {
+            "id": "17aecadf.e85135"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 1197,
+        "y": 100,
+        "wires": [
+          {
+            "id": "c2ab96d4.3d5468",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2e8fcb2.5d17",
+    "type": "subflow",
+    "name": "BlueMix Forecast Only",
+    "info": "",
+    "in": [
+      {
+        "x": 127,
+        "y": 152,
+        "wires": [
+          {
+            "id": "7cbd32f5.8342cc"
+          }
+        ]
+      }
+    ],
+    "out": [
+      {
+        "x": 1250,
+        "y": 219,
+        "wires": [
+          {
+            "id": "3e567868.c1a988",
+            "port": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "135c3861.dce5a",
+    "type": "twitter-credentials",
+    "z": "",
+    "screen_name": "@LLWeather"
+  },
+  {
+    "id": "a200ee81.de3ff",
+    "type": "twitter-credentials",
+    "z": "",
+    "screen_name": "@bodonovan"
+  },
+  {
+    "id": "673b8b98.fae104",
+    "type": "mqttssl-broker",
+    "z": "",
+    "broker": "iot.eclipse.org",
+    "port": "1883",
+    "clientid": ""
+  },
+  {
+    "id": "678de8d0.1fbca8",
+    "type": "mqtt-broker",
+    "z": 0,
+    "broker": " broker.mqttdashboard.com",
+    "port": "1883",
+    "clientid": "",
+    "usetls": false,
+    "compatmode": true,
+    "keepalive": "60",
+    "cleansession": true,
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthRetain": "true",
+    "birthPayload": ""
+  },
+  {
+    "id": "e9d17a24.b95fa8",
+    "type": "mqtt-broker",
+    "z": 0,
+    "broker": " broker.mqttdashboard.com",
+    "port": "8000",
+    "clientid": "",
+    "usetls": false,
+    "compatmode": true,
+    "keepalive": "60",
+    "cleansession": true,
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": ""
+  },
+  {
+    "id": "d94ad7e0.1e5d68",
+    "type": "mqtt-broker",
+    "z": 0,
+    "broker": "iot.eclipse.org",
+    "port": "1883",
+    "clientid": "",
+    "usetls": false,
+    "compatmode": true,
+    "keepalive": "60",
+    "cleansession": true,
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": ""
+  },
+  {
+    "id": "18b03d4.c61eec3",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Dublin",
+    "topic": "",
+    "payload": "{\"CITY\": \"Dublin\",\"LAT\":53.4, \"LONG\":-6.4, \"WUNDER\":\"IDUBLIN85\", \"WOEID\":\"560743\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "25 12 * * *",
+    "once": false,
+    "x": 114.25,
+    "y": 254,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "c4a8496a.598c68",
+    "type": "debug",
+    "z": "742722e4.073ffc",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 448.75,
+    "y": 367,
+    "wires": []
+  },
+  {
+    "id": "ed8e51af.55f1f8",
+    "type": "function",
+    "z": "742722e4.073ffc",
+    "name": "Multiplex",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = new Date();\nmsg.payload.request_date = msg.request_date;\nmsg.payload.ts = \"TIMESTAMP\";\nreturn msg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 326.37498474121094,
+    "y": 236.06251525878906,
+    "wires": [
+      [
+        "c4a8496a.598c68",
+        "c80cbffd.d3ff8",
+        "e6e5c83a.8fca08",
+        "6712feee.8d4fa",
+        "d164a1c8.2e9b6",
+        "b770eec9.488f1",
+        "103f0d38.4610f3",
+        "d0646098.10752"
+      ]
+    ]
+  },
+  {
+    "id": "b6534e69.f8194",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Clemmons",
+    "topic": "",
+    "payload": "{\"CITY\": \"Clemmons\",\"LAT\":36, \"LONG\":-80.4, \"WUNDER\":\"KNCCLEMM2\", \"WOEID\":\"2381385\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "21 17 * * *",
+    "once": false,
+    "x": 136,
+    "y": 451.25,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "ad81c296.12ef",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Cape Town",
+    "topic": "",
+    "payload": "{\"CITY\": \"Cape Town\",\"LAT\":-34, \"LONG\":18.5, \"WUNDER\":\"IWESTERN589\", \"WOEID\":\"1591691\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "45 10 * * *",
+    "once": false,
+    "x": 109,
+    "y": 145.7500228881836,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "50954179.598ce8",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Isle of Wight",
+    "topic": "",
+    "payload": "{\"CITY\": \"Isle of Wight\",\"LAT\":50.7, \"LONG\":-1.3, \"WUNDER\":\"INEWPORT24\", \"WOEID\":\"35356\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "05 12 * * *",
+    "once": false,
+    "x": 111,
+    "y": 217.25,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "bfc56205.a6094",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Perth",
+    "topic": "",
+    "payload": "{\"CITY\": \"Perth\",\"LAT\":-32, \"LONG\":115.9, \"WUNDER\":\"IWESTERN361\", \"WOEID\":\"1098081\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "16 4 * * *",
+    "once": false,
+    "x": 107.67856979370117,
+    "y": 68.92856979370117,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "233a358b.3958aa",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Lanzarote",
+    "topic": "",
+    "payload": "{\"CITY\": \"Lanzarote\",\"LAT\":29, \"LONG\":-13.6, \"WUNDER\":\"ILASPALM1\", \"WOEID\":\"12523048\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "54 12 * * *",
+    "once": false,
+    "x": 121.5,
+    "y": 326,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "6b73a903.948c58",
+    "type": "function",
+    "z": "ae0cc548.49bd68",
+    "name": "OpenWeatherMap Forecast URL",
+    "func": "msg.url = \"http://api.openweathermap.org/data/2.5/forecast?units=metric&lat=\"+msg.payload.LAT+\"&lon=\"+msg.payload.LONG+\"&appid=e53bd1c6fa105e9f2341d14336803b16\";\nnode.warn(\"OpenWeatherMap Forecast URL \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 237.25,
+    "y": 66,
+    "wires": [
+      [
+        "4b79a7f6.4eb448"
+      ]
+    ]
+  },
+  {
+    "id": "31b9dee3.ce4622",
+    "type": "cloudant out",
+    "z": "742722e4.073ffc",
+    "name": "forecasts",
+    "cloudant": "",
+    "database": "forecasts",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 806.25,
+    "y": 239,
+    "wires": []
+  },
+  {
+    "id": "4b79a7f6.4eb448",
+    "type": "http request",
+    "z": "ae0cc548.49bd68",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 510.25,
+    "y": 42,
+    "wires": [
+      [
+        "bc82b74c.338168",
+        "fb2f55b7.04d0a8"
+      ]
+    ]
+  },
+  {
+    "id": "51636b42.ae9c94",
+    "type": "function",
+    "z": "ab1502c9.89084",
+    "name": "WeatherOnline URL",
+    "func": "msg.url = \"http://api.worldweatheronline.com/free/v2/weather.ashx?q=\"+msg.payload.LAT+\",\"+msg.payload.LONG+\"&format=json&num_of_days=5&key=474fd934b889e83ef8e28c9fee248\";\nnode.warn(\"WeatherOnline URL \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 230.24998474121094,
+    "y": 210,
+    "wires": [
+      [
+        "8ff9a52e.700658"
+      ]
+    ]
+  },
+  {
+    "id": "c979843.f368678",
+    "type": "function",
+    "z": "ab1502c9.89084",
+    "name": "Parse WeatherOnline Forecast",
+    "func": "var provider_name=\"weatheronline\";\n\nvar curr_city = msg.city;\nvar request_date = msg.request_date;\nnode.warn (\"weatheronline report from city \"+curr_city+\" for \"+request_date);\nvar d=new Date(msg.request_date);\n\nvar temp = msg.payload.data.current_condition[0].temp_C;\nif (!temp) {\n    node.error (\"weatheronline returned no report on current weather  for \" +curr_city + \" at \" + request_date);\n    return null;\n}\n//node.warn(\"weatheronline current temp=\"+temp);\nvar pressure = msg.payload.data.current_condition[0].pressure;\n//node.warn(\"weatheronline current pressure=\"+pressure);\nvar humidity = msg.payload.data.current_condition[0].humidity;\n//node.warn(\"weatheronline current humidity=\"+humidity);\nvar windspeedKmph = msg.payload.data.current_condition[0].windspeedKmph;\n//node.warn(\"weatheronline current windspeedKmph=\"+windspeedKmph);\nvar winddirDegree = msg.payload.data.current_condition[0].winddirDegree;\n//node.warn(\"weatheronline current winddirDegree=\"+winddirDegree);\nvar precipMM = msg.payload.data.current_condition[0].precipMM;\n//node.warn(\"weatheronline current precipMM=\"+precipMM);\nvar rain = true;\nif (0===precipMM)\n    rain = false;\nvar newMsg = {payload:{provider:provider_name,request_date:request_date,city:curr_city,rain:rain}};\nnewMsg.payload.temp = parseInt(temp);\nnewMsg.payload.humidity = parseInt(humidity);\nnewMsg.payload.pressure = parseInt(pressure);\nnewMsg.payload.wind_speed = parseInt(windspeedKmph);\nnewMsg.payload.wind_dir = parseInt(winddirDegree);\nnewMsg.payload.rainfall = parseFloat(precipMM);\nnode.send (newMsg);\n\nvar forecasts=msg.payload.data.weather;\nif (!forecasts) {\n    node.error (\"weatheronline returned no weather forecast for \" +curr_city + \" at \" + request_date);\n    return null;\n}\nfor (i = 1; i < forecasts.length; i++) {\n    var fcstMsg = {payload:{provider:provider_name,request_date:request_date,city:curr_city,days_in_advance:i}};\n\n    fcstMsg.payload.temp_max = parseInt(forecasts[i].maxtempC);\n    fcstMsg.payload.temp_min = parseInt(forecasts[i].mintempC);\n    fcstMsg.payload.temp = parseInt(forecasts[i].hourly[4].tempC);\n    fcstMsg.payload.pressure = parseInt(forecasts[i].hourly[4].pressure);\n    fcstMsg.payload.humidity = parseInt(forecasts[i].hourly[4].humidity);\n    fcstMsg.payload.wind_speed = parseInt(forecasts[i].hourly[4].windspeedKmph);\n    fcstMsg.payload.wind_dir = parseInt(forecasts[i].hourly[4].winddirDegree);\n\n    precipMM = forecasts[i].precipMM;\n    if (0===precipMM)\n        fcstMsg.payload.rain = false;\n    else\n        fcstMsg.payload.rain = true;\n    fcstMsg.payload.rainfall = parseFloat(precipMM);\n\n    fcstMsg.payload.forecast_date = new Date(1900+d.getYear(), d.getMonth(), i+d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds());\n    //node.warn (d+\" plus \"+i+\" days is \"+fcstMsg.payload.forecast_date);\n\n    //node.warn (\"forecast for day \" + i + \" from \" + temp_min + \" to \" + temp_max);\n    node.send (fcstMsg);\n}\nreturn null;\n\n\n\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 523.2499847412109,
+    "y": 215,
+    "wires": [
+      [
+        "b75595ba.499aa8"
+      ]
+    ]
+  },
+  {
+    "id": "38abe465.c7541c",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Galway",
+    "topic": "",
+    "payload": "{\"CITY\": \"Galway\",\"LAT\":53.27, \"LONG\":-9.04, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "36 12 * * *",
+    "once": false,
+    "x": 113.25,
+    "y": 288,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "8ff9a52e.700658",
+    "type": "http request",
+    "z": "ab1502c9.89084",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 339,
+    "y": 285,
+    "wires": [
+      [
+        "c979843.f368678",
+        "d28f2d70.2d70d"
+      ]
+    ]
+  },
+  {
+    "id": "b75595ba.499aa8",
+    "type": "debug",
+    "z": "ab1502c9.89084",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 794,
+    "y": 209,
+    "wires": []
+  },
+  {
+    "id": "c80cbffd.d3ff8",
+    "type": "cloudant out",
+    "z": "742722e4.073ffc",
+    "name": "cloudant-log",
+    "cloudant": "",
+    "database": "log",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 455.5,
+    "y": 412,
+    "wires": []
+  },
+  {
+    "id": "87899498.e2bd68",
+    "type": "cloudant out",
+    "z": "ab1502c9.89084",
+    "name": "weatheronline-cloudant",
+    "cloudant": "",
+    "database": "weatheronline",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 753,
+    "y": 326,
+    "wires": []
+  },
+  {
+    "id": "26170f68.e999b",
+    "type": "cloudant out",
+    "z": "ae0cc548.49bd68",
+    "name": "new-openweathermap-cloudant",
+    "cloudant": "",
+    "database": "openweathermap2",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 566,
+    "y": 203,
+    "wires": []
+  },
+  {
+    "id": "bc82b74c.338168",
+    "type": "function",
+    "z": "ae0cc548.49bd68",
+    "name": "Parse Forecast",
+    "func": "var provider_name=\"openweathermap\";\n\nvar curr_city = msg.city;\nnode.warn (\"openweathermap report from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\nvar d=new Date(msg.request_date);\n\nvar forecasts=msg.payload.list;\nvar day_num =-1;\nnode.warn(\"OpenWeatherMap List length = \"+forecasts.length);\nfor (i = 0; i < forecasts.length; i++) {\n    var fcst_time = forecasts[i].dt_txt.toString();\n    //node.warn (\"Entry \"+ i + \"=\" +fcst_time);\n    //node.warn (\"it is a \"+typeof fcst_time);\n    var hour = fcst_time.substring(11,16);\n    //node.warn (\">\"+hour+\"<\");\n    //var b = fcst_time.includes(\"12:00\");\n    if (\"12:00\" === hour) { // (fcst_time.endsWith(\"12:00\")) {\n        day_num++;\n        if (0===day_num) {\n            //node.warn (\"We don't need a forecast for today\");\n            continue;\n        } else {\n            //node.warn (day_num+\" day forecast at \"+fcst_time);\n        }\n        //node.warn (\"YIPEE element \" + i + \" is a daily forecast: \" +fcst_time + \" for day \" + day_num);\n\n        // old version fetched Kelvin and converted\n        //var temp = forecasts[i].main.temp - 273.15;\n        //temp = Math.round(temp * 100) / 100;\n        //var temp_min = forecasts[i].main.temp_min - 273.15;\n        //temp_min = Math.round(temp_min * 100) / 100;\n        //var temp_max = forecasts[i].main.temp_max - 273.15;\n        //temp_max = Math.round(temp_max * 100) / 100;\n        var temp = forecasts[i].main.temp;\n        var temp_min = forecasts[i].main.temp_min;\n        var temp_max = forecasts[i].main.temp_max;\n        //node.warn(\"temp=\"+temp+\" max=\"+temp_max+\" min=\"+temp_min);\n\n        newMsg.payload.days_in_advance = day_num;\n        newMsg.payload.temp = temp;\n        newMsg.payload.temp_max = temp_max;\n        newMsg.payload.temp_min = temp_min;\n        newMsg.payload.humidity =  forecasts[i].main.humidity;\n        newMsg.payload.pressure =  forecasts[i].main.pressure;\n        newMsg.payload.wind_speed =  forecasts[i].wind.speed;\n        newMsg.payload.wind_dir =  forecasts[i].wind.deg;\n        if (null===forecasts[i].rain)\n            newMsg.payload.rain = false;\n        else\n            newMsg.payload.rain = true;\n\n        //newMsg.payload.forecast_date = new Date(fcst_time);\n\t    newMsg.payload.forecast_date = new Date(1900+d.getYear(), d.getMonth(), day_num+d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds());\n        node.warn (d+\" plus \"+day_num+\" days is \"+newMsg.payload.forecast_date+\" or \"+fcst_time);\n        node.send (newMsg);\n    } else {\n            //node.warn (\"element \" + i + \" is NOT a daily forecast: \" +fcst_time);\n    }\n}\n\nreturn null;\n\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 732.6448974609375,
+    "y": 49.090911865234375,
+    "wires": [
+      [
+        "26dde19d.11b12e"
+      ]
+    ]
+  },
+  {
+    "id": "26dde19d.11b12e",
+    "type": "debug",
+    "z": "ae0cc548.49bd68",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 893.0994262695312,
+    "y": 220.727294921875,
+    "wires": []
+  },
+  {
+    "id": "e6e5c83a.8fca08",
+    "type": "subflow:ae0cc548.49bd68",
+    "z": "742722e4.073ffc",
+    "name": "",
+    "x": 557.4474487304688,
+    "y": 189.3636474609375,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "6712feee.8d4fa",
+    "type": "subflow:ab1502c9.89084",
+    "z": "742722e4.073ffc",
+    "x": 548.625,
+    "y": 291,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "4dc240cd.dec9b8",
+    "type": "function",
+    "z": "ae0cc548.49bd68",
+    "name": "OpenWeatherMap Weather URL",
+    "func": "msg.url = \"http://api.openweathermap.org/data/2.5/weather?units=metric&lat=\"+msg.payload.LAT+\"&lon=\"+msg.payload.LONG+\"&appid=e53bd1c6fa105e9f2341d14336803b16\";\nnode.warn(\"OpenWeatherMap Weather URL \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 230,
+    "y": 298,
+    "wires": [
+      [
+        "ec342069.f7ed8"
+      ]
+    ]
+  },
+  {
+    "id": "ec342069.f7ed8",
+    "type": "http request",
+    "z": "ae0cc548.49bd68",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 507,
+    "y": 306,
+    "wires": [
+      [
+        "127a1437.dbfd9c",
+        "fb2f55b7.04d0a8"
+      ]
+    ]
+  },
+  {
+    "id": "127a1437.dbfd9c",
+    "type": "function",
+    "z": "ae0cc548.49bd68",
+    "name": "Parse Weather",
+    "func": "var provider_name=\"openweathermap\";\n\nvar curr_city = msg.city;\nnode.warn (\"openweathermap report from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\n\nvar main = msg.payload.main;\nvar temp = main.temp;\n// old version had convert from Kelvin - now we fetch celcius\n//temp = Math.round((temp-273.15) * 100) / 100;\nvar temp_max = main.temp_max;\n//temp_max = Math.round((temp_max-273.15) * 100) / 100;\nvar temp_min = main.temp_min;\n//temp_min = Math.round((temp_min-273.15) * 100) / 100;\n\nnewMsg.payload.temp = temp;\nnewMsg.payload.temp_min = temp_min;\nnewMsg.payload.temp_max = temp_max;\nnewMsg.payload.pressure = main.pressure;\nnewMsg.payload.humidity = main.humidity;\nnewMsg.payload.wind_speed = msg.payload.wind.speed;\nnewMsg.payload.wind_dir = msg.payload.wind.deg;\nif (null===msg.payload.rain)\n    newMsg.payload.rain = false;\nelse\n    newMsg.payload.rain = true;\n\n//node.warn(\"temp=\"+temp+\" temp_max=\"+temp_max+\"temp_min=\"+temp_min+\" pressure=\"+main.pressure+\" humidity=\"+main.humidity);\n\nreturn newMsg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 721,
+    "y": 301,
+    "wires": [
+      [
+        "26dde19d.11b12e"
+      ]
+    ]
+  },
+  {
+    "id": "1aea7980.5084c3",
+    "type": "debug",
+    "z": "ae878406.8d6b18",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 946,
+    "y": 144.75,
+    "wires": []
+  },
+  {
+    "id": "6325de2e.9cda2",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Antartica",
+    "topic": "",
+    "payload": "{\"CITY\": \"Antartica\",\"LAT\":-89.9, \"LONG\":0, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD1\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "00 12 * * *",
+    "once": false,
+    "x": 117,
+    "y": 181,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "c12054dd.3edfa8",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Rio de Janeiro",
+    "topic": "",
+    "payload": "{\"CITY\": \"Rio de Janeiro\",\"LAT\":-22.908333, \"LONG\":-43.196389, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "52 14 * * *",
+    "once": false,
+    "x": 116,
+    "y": 369,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "d7069bfa.28f968",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Luxor",
+    "topic": "",
+    "payload": "{\"CITY\": \"Luxor\",\"LAT\":25.683333, \"LONG\":32.65, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD1\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "49 9 * * *",
+    "once": false,
+    "x": 113,
+    "y": 106,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "c0679480.a5403",
+    "type": "function",
+    "z": "8055167a.7faae8",
+    "name": "WUnderground Forecast URL",
+    "func": "msg.city=msg.payload.CITY;\nvar api_key=\"01def53094a6ba60\";\nmsg.url=\"http://api.wunderground.com/api/\"+api_key+\"/forecast10day/q/\"+msg.payload.LAT+\",\"+msg.payload.LONG+\".json\";\nnode.warn(\"Weather Underground Forecast URL: \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 194,
+    "y": 154,
+    "wires": [
+      [
+        "7f434d73.37633c"
+      ]
+    ]
+  },
+  {
+    "id": "9ed49cda.af2ce8",
+    "type": "debug",
+    "z": "8055167a.7faae8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 947,
+    "y": 127,
+    "wires": []
+  },
+  {
+    "id": "7f434d73.37633c",
+    "type": "http request",
+    "z": "8055167a.7faae8",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 124.5,
+    "y": 249,
+    "wires": [
+      [
+        "2087b368.0a27ec",
+        "d88cd34a.27733"
+      ]
+    ]
+  },
+  {
+    "id": "2087b368.0a27ec",
+    "type": "function",
+    "z": "8055167a.7faae8",
+    "name": "Parse WUnderground Fcst",
+    "func": "var provider_name=\"weatherunderground\";\n\nvar curr_city = msg.city;\nvar request_date = msg.request_date;\nnode.warn (\"Weather Underground forecast from city \"+curr_city+\" for \"+request_date);\n\nvar d=new Date(msg.request_date);\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n\nfor (i=1; i<10; i++) {\n    //node.warn (\"processing element \"+i+\" from array\");\n    var elem = msg.payload.forecast.simpleforecast.forecastday[i];\n\n    //node.warn(\"epoch=\"+elem.date.epoch);\n    //node.warn(\"pretty=\"+elem.date.pretty);\n    //var fcst_date2 = new Date(parseInt(elem.date.epoch));\n    //node.warn(\"epoch_date=\"+fcst_date2.toISOString());\n    //node.warn(\"year=\"+(1900+d.getYear())+\" month=\"+(1+d.getMonth())+\" day=\"+(i+d.getDate())+\" hour=\"+d.getHours()+\" min=\"+d.getMinutes());\n    //var fcst_date = new Date(1900+d.getYear(), 1+d.getMonth(), /*i+*/d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds());\n    //node.warn(\"year=\"+elem.date.year+\" month=\"+elem.date.month+\" day=\"+elem.date.day+\" hours=\"+elem.date.hour+\" minutes=\"+elem.date.min);\n    //var fcst_date = new Date(elem.date.year, elem.date.month-1, elem.date.day, elem.date.hour, elem.date.min, 0, 0);\n    //node.warn (\"fcst date=\"+fcst_date.toISOString());\n    //node.warn (\"fcst date=\"+fcst_date);\n    \n    \n    newMsg.payload.days_in_advance = i;\n    newMsg.payload.temp = (Number(elem.high.celsius)+Number(elem.low.celsius))/2;\n    newMsg.payload.temp_max = Number(elem.high.celsius);\n    newMsg.payload.temp_min = Number(elem.low.celsius);\n    newMsg.payload.humidity =  Number(elem.avehumidity);\n    newMsg.payload.pressure =  0; // weather underground don't seem to tell us about pressure\n    newMsg.payload.wind_speed =  Number(elem.avewind.kph);\n    newMsg.payload.wind_dir =  Number(elem.avewind.degrees);\n    // they might use words other than Rain e.g. drizzle\n    if (\"Rain\"===elem.conditions)\n        newMsg.payload.rain = true;\n    else\n        newMsg.payload.rain = false;\n\n    newMsg.payload.forecast_date = new Date(1900+d.getYear(), d.getMonth(), i+d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds());\n    node.send (newMsg);\n}\n\nreturn null;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 462,
+    "y": 252,
+    "wires": [
+      [
+        "9ed49cda.af2ce8"
+      ]
+    ]
+  },
+  {
+    "id": "d164a1c8.2e9b6",
+    "type": "subflow:8055167a.7faae8",
+    "z": "742722e4.073ffc",
+    "x": 564,
+    "y": 241,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "79ca50cf.8635b",
+    "type": "cloudant out",
+    "z": "8055167a.7faae8",
+    "name": "weatherunderground-cloudant",
+    "cloudant": "",
+    "database": "weatherunderground",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 654,
+    "y": 134,
+    "wires": []
+  },
+  {
+    "id": "ca67f02a.35981",
+    "type": "function",
+    "z": "8055167a.7faae8",
+    "name": "WUnderground Conditions URL",
+    "func": "msg.city=msg.payload.CITY;\nvar api_key=\"01def53094a6ba60\";\nmsg.url=\"http://api.wunderground.com/api/\"+api_key+\"/conditions/q/\"+msg.payload.LAT+\",\"+msg.payload.LONG+\".json\";\nnode.warn(\"Weather Underground Conditions URL: \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 213,
+    "y": 36,
+    "wires": [
+      [
+        "955b78a.f6aa488"
+      ]
+    ]
+  },
+  {
+    "id": "43c34ecf.bc3cb",
+    "type": "function",
+    "z": "8055167a.7faae8",
+    "name": "Parse WUnderground Conditions",
+    "func": "var provider_name=\"weatherunderground\";\n\nvar curr_city = msg.city;\nvar request_date = msg.request_date;\nnode.warn (\"Weather Underground conditions report from city \"+curr_city+\" for \"+request_date);\n\nvar d=new Date(msg.request_date);\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n\nvar obs = msg.payload.current_observation;\nnewMsg.payload.temp = Number(obs.temp_c);\nnewMsg.payload.wind_degrees = Number(obs.wind_degrees);\nnewMsg.payload.wind_speed = Number(obs.wind_kph);\nnewMsg.payload.pressure = Number(obs.pressure_mb);\n\nvar hum_str = obs.relative_humidity;\n//node.warn(\"Orig humidity str >\"+hum_str+\"<\");\nhum_str = Number(hum_str);\n//node.warn (\"Parsed as \"+hum_str);\nnewMsg.payload.humidity = hum_str;\n\nif (obs.precip_1hr_metric>0)\n    newMsg.payload.rain = true;\nelse\n    newMsg.payload.rain = false;\n\nreturn newMsg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 631,
+    "y": 53,
+    "wires": [
+      [
+        "9ed49cda.af2ce8"
+      ]
+    ]
+  },
+  {
+    "id": "955b78a.f6aa488",
+    "type": "http request",
+    "z": "8055167a.7faae8",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 402,
+    "y": 104,
+    "wires": [
+      [
+        "43c34ecf.bc3cb",
+        "d88cd34a.27733"
+      ]
+    ]
+  },
+  {
+    "id": "68e38de7.971c74",
+    "type": "http response",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "x": 524,
+    "y": 29,
+    "wires": []
+  },
+  {
+    "id": "2cbd5dfa.d342a2",
+    "type": "http in",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "url": "/UI",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 66,
+    "y": 30,
+    "wires": [
+      [
+        "719d4589.8e62bc"
+      ]
+    ]
+  },
+  {
+    "id": "4117b96.fbee848",
+    "type": "template",
+    "z": "84100be2.7beff8",
+    "name": "HTML template",
+    "field": "payload",
+    "fieldType": "msg",
+    "format": "handlebars",
+    "syntax": "mustache",
+    "template": "<html>\n  <head>\n    <link href='http://www.brianodonovan.ie/favicon.ico' rel='icon' type='image/x-icon'/>\n    <script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\n    <script type=\"text/javascript\">\n    google.charts.load('current', {'packages':['corechart']});\n    google.charts.setOnLoadCallback(drawChart);\n\n    // use for a blank chart - actual empty array looks weird\n    var blankData = [['Date', 'Sample Forecast', 'Sample Actual'],\n          ['2016-09-01',  10,      4],\n          ['2016-09-02',  11,      4.6],\n          ['2016-09-03',  6.6,       11.2],\n          ['2016-09-04',  10.3,      5.4]];\n\n    //var chartData = blankData.slice(0,5);\n    var chartData = [['Date', 'Sample Forecast', 'Sample Actual'],\n          ['2016-09-01',  10,      4],\n          ['2016-09-02',  11,      4.6],\n          ['2016-09-03',  6.6,       11.2],\n          ['2016-09-04',  10.3,      5.4]];\n\n\tvar dataMap = {};\n\t\n\tfunction isNumeric(n) {\n        return !isNaN(parseFloat(n)) && isFinite(n);\n    }\n          \n    function drawChart() {\n        var data = google.visualization.arrayToDataTable(chartData);\n\n        var options = {\n          title: 'Forecast Comparison',\n          /* curveType: 'function', */\n          legend: { position: 'bottom' }\n        };\n\n        var chart = new google.visualization.LineChart(document.getElementById('forecast_chart'));\n\n        chart.draw(data, options);\n      }\n      \n        var xmlhttp = new XMLHttpRequest();\n\n        xmlhttp.onreadystatechange=function() {\n            if (this.readyState == 4 && this.status == 200) {\n                loadNewData(this.responseText);\n            }\n        }\n        \n        function loadNewData(response) {\n            var d = JSON.parse(response);\n \n    \t    // add the current entries to dataMap\n    \t    var gotData = false;\n    \t    for (var d_str in d.detail) {\n              if (d.detail.hasOwnProperty(d_str)) {\n                gotData = true;\n                console.log(d_str + \" -> \" + d.detail[d_str]);\n                var arr = dataMap[d_str];\n                if (!arr) {\n                    arr = new Array(set_num+1);\n                    arr[0] = d_str;\n                    dataMap[d_str] = arr;\n                }\n                arr.length = set_num+1;\n                arr[set_num] = d.detail[d_str];\n              }\n    \t    }\n           \n            // if we got no data exit\n            if (!gotData) {\n                alert (\"No data returned\");\n                set_num--;\n                return;\n            }\n\n            // clear existing data from chart\n            chartData.length = 1;\n            chartData[0].length = set_num+1;\n            chartData[0][set_num] = d.description;\n    \t    \n    \t    // iterate through the date range and build the barray needed for the chart\n            var dstr = start;\n            var atEnd = false;\n            idx =1;\n            while (!atEnd) {\n                \n                var arr2 = dataMap[dstr];\n                if (!arr2) {\n                    arr2 = new Array (set_num+1);\n                    arr2[0] = dstr;\n                } else {\n                   arr2.length = set_num+1\n                }\n                for (i=1; i<arr2.length; i++) {\n                    if (!arr2[i])\n                        arr2[i] = null;\n                }\n                chartData.length = idx+1;\n                chartData[idx] = arr2;\n            \tidx++;\n                \n                // work out if we are àt the end\n            \tif (dstr == end)\n            \t\tatEnd = true;\n            \t\t\n            \t// work out the next date\n            \tvar da = new Date(dstr);\n            \t//var yrNum = parseInt(dstr.substring(0,4));\n            \t//var mthNum = parseInt(dstr.substring(5,7))-1;\n            \t//var dayNum = parseInt(dstr.substring(8,10));\n            \t//var da = new Date(yrNum, mthNum, dayNum, 12);\n            \tda.setDate(da.getDate()+1);\n            \tdstr = da.toISOString();\n            \tdstr = dstr.substring(0,10);\n            \t\n            }\n\n    \t    drawChart();\n        }\n\n      var set_num = 0;\n      var start = \"\"; //document.getElementById(\"from\").value;\n      var end = \"\"; //document.getElementById(\"to\").value;\n      \n      // Set the initial date range from 14 days ago to today - called on load\n      function setDate() {\n          var nowDay = new Date();\n          var ns = nowDay.toISOString();\n          ns = ns.substring(0,10);\n          document.getElementById(\"to\").value = ns;\n          nowDay.setDate(nowDay.getDate()-14);\n          ns = nowDay.toISOString();\n          ns = ns.substring(0,10);\n          document.getElementById(\"from\").value = ns;\n      }\n      \n      \n      // remove the most recently added data set from the chart\n      function removeData() {\n          for (var i=0; i<chartData.length; i++)\n            chartData[i].length = set_num+1;\n          set_num--;\n          drawChart();\n      }\n      \n      function clearChart() {\n        //alert(\"This function will clear all data from the chart\");\n        set_num = 0;\n        //chartData = blankData.slice(0,5);\n        chartData = [['Date', 'Sample Forecast', 'Sample Actual'],\n          ['2016-09-01',  10,      4],\n          ['2016-09-02',  11,      4.6],\n          ['2016-09-03',  6.6,       11.2],\n          ['2016-09-04',  10.3,      5.4]];\n        dataMap = {};\n        drawChart();\n      }\n      \n      function changeDate() {\n\t    start = document.getElementById(\"from\").value;\n\t    end = document.getElementById(\"to\").value;\n\t    if (end < start) {\n\t        alert(\"End can't be before start\");\n\t        document.getElementById(\"to\").value = document.getElementById(\"from\").value;\n\t    }\n\t    //alert (\"Chart date range is now from \"+start+\" to \"+end);\n\t    // ToDo trim the chart\n      }\n\n      function loadData() {\n        //var url = \"http://bodonovan.mybluemix.net/data?\";\n        var url = \"/data?\";\n        \n\t    changeDate();\n\t    \n\t    var city = document.getElementById(\"city\").value;\n\t    if (city) url += \"city=\"+city;\n\t    var act_fcst = document.getElementById(\"act_fcst\").value;\n\t    if (act_fcst) url += \"&act_fcst=\"+act_fcst;\n\t    if (act_fcst==\"forecast\") {\n\t        var daysa = document.getElementById(\"daysa\").value;\n\t        url += \"&daysa=\"+daysa;\n\t    } else {\n\t        url += \"&daysa=0\";\n\t    }\n\t    var provider = document.getElementById(\"provider\").value;\n\t    if (provider) url += \"&provider=\"+provider;\n\t    var feature = document.getElementById(\"feature\").value;\n\t    if (feature) url += \"&feature=\"+feature;\n\t    url += \"&start=\"+document.getElementById(\"from\").value;\n\t    url += \"&end=\"+document.getElementById(\"to\").value;\n\t    \n\t    //alert(\"url \"+url);\n\t    set_num++;\n\n        xmlhttp.open(\"GET\", url, true);\n        xmlhttp.send();\n\n      }\n      \n      // function to flip as appropriate\n      function showHideDays () {\n          if (\"actual\" === document.getElementById(\"act_fcst\").value)\n            document.getElementById(\"daysa_sel\").style.visibility = \"hidden\";\n          else\n            document.getElementById(\"daysa_sel\").style.visibility = \"visible\";\n      }\n      \n      // function to export current chart contents to CSV\n      function exportData() {\n          var csvContent = \"data:text/csv;charset=utf-8,\";\n          chartData.forEach(function(infoArray, index){\n              var dataString = infoArray.join(\",\");\n              csvContent += (index < chartData.length) ? (dataString+ \"\\n\") : dataString;\n          });\n          \n          var encodedUri = encodeURI(csvContent);\n          window.open(encodedUri);\n          \n          /* this version hadcodes the export file  name\n          var encodedUri = encodeURI(csvContent);\n          var link = document.createElement(\"a\");\n          link.setAttribute(\"href\", encodedUri);\n          link.setAttribute(\"download\", \"my_data.csv\");\n          document.body.appendChild(link); // Required for FF\n          link.click();\n          */\n      }\n      \n    </script>\n  </head>\n<body onload=\"setDate()\">\n<title>Forecast comparison chart</title>\n<div id=\"forecast_chart\" style=\"width: 100%; height: 80%\"></div>\n\n<div id=\"controls\">\n<table>\n    <tr>\n        <td>\n            <div id=\"date-range\">\n            Date range\n            From\n            <input type=\"date\" onchange=\"changeDate()\" id=\"from\" name=\"fromDate\" value=\"{{start_date}}\" min=\"{{min_date}}\" max=\"{{max_date}}\">\n            To\n            <input type=\"date\" onchange=\"changeDate()\" id=\"to\" name=\"toDate\"  value=\"{{last_date}}\" min=\"{{min_date}}\" max=\"{{max_date}}\">\n            </div>\n        </td>\n        <td>\n            <div id=\"city_sel\">\n            City\n            <select id=\"city\" value=\"Galway\">\n            {{{cities_options}}}\n            </select> \n            </div>\n        </td>\n        <td>\n            <div id=\"prov_sel\">\n            Provider\n            <select id=\"provider\">\n            {{{providers_options}}}\n            </select>\n            </div>\n        </td>\n        <td>\n            <div id=\"feature_sel\">\n            Feature\n            <select id=\"feature\">\n             <option value=\"temp\">Temperature (celcius)</option>\n             <option value=\"pressure\">Pressure (mb)</option> \n             <option value=\"wind_speed\">Wind Speed (km/h)</option>\n             <option value=\"wind_dir\">Wind Direction (degrees)</option>\n             <option value=\"humidity\">Relative Humidity (%)</option>\n             <option value=\"rain\">Raining?</option>\n            </select> \n            </div>\n        </td>\n        <td>\n            <div id=\"act_fcst_sel\">\n            <select id=\"act_fcst\" onchange=\"showHideDays()\">\n             <option value=\"actual\">Actual</option> <option value=\"forecast\">Forecast</option>\n            </select> \n            </div>\n        </td>\n        <td>\n            <div id=\"daysa_sel\" style=\"visibility: hidden\">\n            Days in Advance\n            <select id=\"daysa\">\n            {{{daysa_options}}}\n            </select> \n            </div>    \n        </td>\n    </tr>\n</table>\n\n<button onclick=\"loadData()\">Load Data</button>\n<button onclick=\"exportData()\">Export Data</button>\n<button onclick=\"removeData()\">Remove Data</button>\n<button onclick=\"clearChart()\">ClearChart</button>\n</div>\n\n</body>\n</html>\n\n",
+    "x": 367.4999694824219,
+    "y": 29,
+    "wires": [
+      [
+        "68e38de7.971c74"
+      ]
+    ]
+  },
+  {
+    "id": "719d4589.8e62bc",
+    "type": "function",
+    "z": "84100be2.7beff8",
+    "name": "Var Setup",
+    "func": "//TODO read the city list from the DB\nmsg.cities=[\"Antartica\",\"Canterbury\", \"Cape Town\", \"Coral Springs\", \"Clemmons\",\n    \"Dublin\", \"Galway\", \"Honolulu\", \"Isle of Wight\", \n    \"Lanzarote\", \"Luxor\", \"Perth\", \"Rio de Janeiro\"];\nmsg.cities_options =\"\";\nfor (var city in msg.cities) {\n    msg.cities_options += \" <option value=\\\"\"+msg.cities[city]+\"\\\">\"+msg.cities[city]+\"</option>\";\n}\n//node.warn (\"msg.cities_options=\"+msg.cities_options);\n\n//TODO read the provider list from the DB\nmsg.providers=[\"weatheronline\",\"openweathermap\",\"weatherunderground\", \"darksky\", \"BlueMix\", \"yr.no\"];\nmsg.providers_options =\"\";\nfor (var provider in msg.providers) {\n    msg.providers_options += \" <option value=\\\"\"+msg.providers[provider]+\"\\\">\"+msg.providers[provider]+\"</option>\";\n}\n//node.warn (\"msg.providers_options=\"+msg.providers_options);\n\n// generate a list of forecast possibilities\nvar max_fcst = 9; // why not 14 when some forecasts claim to be 15 days\nmsg.daysa_options = \"\";\nfor (var i=1; i<=max_fcst; i++) {\n    msg.daysa_options +=  \" <option value=\\\"\"+i+\"\\\">\"+i+\"</option>\";\n}\n\n// default last date is today\nvar d = new Date();\n//node.warn(\"last_date=\"+d);\nvar day = d.getDate();\nif (day<10)\n    day = \"0\" + day;\n//node.warn (\"day = \"+day);\nvar mth = 1+d.getMonth();\nif (mth<10)\n    mth = \"0\" + mth;\n//node.warn(\"month =\"+mth);\nvar yr = 1900+d.getYear();\nmsg.last_date = yr+\"-\"+mth+\"-\"+day;\n//node.warn(\"last_date=\"+msg.last_date);\n\n// make default start 10 days before today\nvar start = new Date(1900+d.getYear(), 1+d.getMonth(), d.getDate()-10, 0, 0, 0, 0);\nmsg.start_date = (1900+start.getYear())+\"-\";\nmth = start.getMonth();\n//node.warn(\"raw month =\"+mth);\nif (mth<10)\n    mth = \"0\" + mth;\n//node.warn(\"padded month =\"+mth);\nday = start.getDate();\nif (day<10)\n    day = \"0\" + day;\nmsg.start_date += mth+\"-\"+day;\n//node.warn(\"start_date=\"+msg.start_date);\n\n\n// make max legal 14 days after today\nvar max = new Date(1900+d.getYear(), 1+d.getMonth(), d.getDate()+14, 0, 0, 0, 0);\nmsg.max_date = (1900+start.getYear())+\"-\";\nmth = max.getMonth();\n//node.warn(\"raw month =\"+mth);\nif (mth<10)\n    mth = \"0\" + mth;\n//node.warn(\"padded month =\"+mth);\nday = max.getDate();\nif (day<10)\n    day = \"0\" + day;\nmsg.max_date += mth+\"-\"+day;\n//node.warn(\"max_date=\"+max_date);\n\n\n// ToDo read min date from DB - for now we hard code it\nmsg.min_date = \"2016-08-25\";\n//node.warn(\"min_date=\"+msg.min_date);\n//node.warn(\"Date range from \"+msg.start_date+\" or \"+msg.min_date+\" to \"+msg.last_date);\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 201.5,
+    "y": 30,
+    "wires": [
+      [
+        "4117b96.fbee848"
+      ]
+    ]
+  },
+  {
+    "id": "bf4cd92e.ae8068",
+    "type": "http in",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "url": "/data",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 65,
+    "y": 100,
+    "wires": [
+      [
+        "5d432b5.514d0d4"
+      ]
+    ]
+  },
+  {
+    "id": "5d432b5.514d0d4",
+    "type": "function",
+    "z": "84100be2.7beff8",
+    "name": "Build Query",
+    "func": "msg.headers = {\"content-type\" : \"application/json\"};\n\nmsg.query =\"\";\nif (msg.payload.city) {\n    msg.query += \"city:\\\"\"+msg.payload.city+\"\\\" AND \";\n    msg.city = msg.payload.city;\n}\nif (msg.payload.provider) {\n    msg.query += \"provider:\\\"\"+msg.payload.provider+\"\\\" AND \";\n    msg.provider = msg.payload.provider;\n}\nif (msg.payload.act_fcst==\"forecast\") {\n    msg.query += \"daysa:\"+msg.payload.daysa;\n    msg.daysa = msg.payload.daysa;\n} else {\n    msg.query += \"daysa:0\";\n    msg.daysa = 0;\n}\nnode.warn (\"query string: \"+msg.query);\n\nmsg.feature = msg.payload.feature;\nmsg.start = msg.payload.start;\nmsg.end = msg.payload.end;\n\nvar description = msg.payload.city;\nif (msg.payload.act_fcst==\"actual\") {\n    description += \" actual \";\n} else {\n    description += \" \"+msg.payload.daysa+\"days \";\n}\ndescription += msg.payload.feature;\ndescription += \" from \"+msg.payload.provider;\nnode.warn(\"desc=\"+description);\n//flow.set (\"description\",description);\nmsg.description = description;\n\nmsg.payload = {};\nmsg.payload.query = msg.query;\nmsg.payload.limit= 200;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 243.99996948242188,
+    "y": 101,
+    "wires": [
+      [
+        "ab9314f4.9af948",
+        "c90a15e4.f97cd8"
+      ]
+    ]
+  },
+  {
+    "id": "f42b84c.1529678",
+    "type": "http response",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "x": 769.0001220703125,
+    "y": 76,
+    "wires": []
+  },
+  {
+    "id": "ab9314f4.9af948",
+    "type": "cloudant in",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "cloudant": "",
+    "database": "forecasts",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "search": "_idx_",
+    "design": "views",
+    "index": "newWeather",
+    "x": 417.3333053588867,
+    "y": 101.66665649414062,
+    "wires": [
+      [
+        "99fcae02.66035"
+      ]
+    ]
+  },
+  {
+    "id": "c90a15e4.f97cd8",
+    "type": "debug",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 389.3333053588867,
+    "y": 65,
+    "wires": []
+  },
+  {
+    "id": "99fcae02.66035",
+    "type": "function",
+    "z": "84100be2.7beff8",
+    "name": "Format Data",
+    "func": "// a function to convert a date sring to a numeric value for comparison\nfunction dateNum (dStr)\t{\n    var str = dStr.substring(0,4);\n    //node.warn (\"part1=\"+str);\n    str += dStr.substring(5,7);\n    //node.warn (\"part2=\"+str);\n    str += dStr.substring(8,10);\n    //node.warn (\"part3=\"+str);\n    var num = parseInt(str);\n    //node.warn (\"Date=\"+dStr+\" Shorten=\"+str+\" num=\"+num);\n    return num;\n}\n\nvar newMsg = {};\nnewMsg.payload = {};\n\n//newMsg.payload.description = flow.get (\"description\");\nnewMsg.payload.description = msg.description;\nnode.warn(\"desc=\"+newMsg.payload.description);\n\n\nnewMsg.payload.detail = {}; //new Array();\nnewMsg.payload.raw = {}; //new Array();\nnewMsg.payload.feature = msg.feature;\nnewMsg.payload.start = msg.start;\nnewMsg.payload.end = msg.end;\nvar startnum = dateNum(msg.start);\nvar endnum = dateNum(msg.end);\nnode.warn (\"Date range from \"+startnum+\" to \"+endnum);\n\nvar idx = 0;\nfor (var elem in msg.payload) {\n    var date_str = msg.payload[elem].request_date.substring(0,10);\n    if (msg.payload[elem].forecast_date)\n        date_str = msg.payload[elem].forecast_date.substring(0,10);\n    var dnum = dateNum(date_str);\n    if (dnum < startnum) {\n        node.warn (date_str+\" is too early for \"+startnum);\n        continue;\n    }\n    if (dnum > endnum) {\n        node.warn (date_str+\" is too late for \"+endnum);\n        continue;\n    }\n    \n    if (msg.city != msg.payload[elem].city) {\n        node.warn (\"I asked about \"+msg.city+\" why tell me about \"+ msg.payload[elem].city);\n        continue;\n    }\n    \n    if (msg.provider != msg.payload[elem].provider) {\n        node.warn (\"I asked for data from \"+msg.provider+\" why send results from \"+ msg.payload[elem].provider);\n        continue;\n    }\n    \n    if (msg.daysa > 0) {\n        if (msg.daysa != msg.payload[elem].days_in_advance) {\n            node.warn (\"I asked for data from \"+msg.daysa+\" days in advance why send results from \"+ msg.payload[elem].days_in_advance);\n            continue;\n        }\n    } else {\n        if (msg.payload[elem].days_in_advance) {\n            node.warn (\"I asked for actual why send results from \"+ msg.payload[elem].days_in_advance+\" days in advance\");\n            continue;\n        }\n    }\n\n    node.warn(\"feature=\"+msg.feature+\" pressure=\"+msg.payload[elem].pressure+\" temp_now=\"+msg.payload[elem].temp_now+\"temp=\"+msg.payload[elem].temp);\n    var value = Number(msg.payload[elem].pressure);\n    if (msg.feature==\"temp\") {\n        value = msg.payload[elem].temp;\n        if (!value)\n            value = msg.payload[elem].temp_now;\n    } else if (msg.feature==\"wind_speed\") {\n        value = msg.payload[elem].wind_speed;\n        // openweathermap need conversion from m/s to km/h\n        if (msg.provider===\"openweathermap\")\n            value = 3.6*value;\n        // does weatherunderground need the same conversion?\n        //if (msg.provider===\"weatherunderground\")\n        //    value = 3.6*value;\n    } else if (msg.feature==\"wind_dir\") {\n        value = msg.payload[elem].wind_dir;\n    } else if (msg.feature==\"humidity\") {\n        value = msg.payload[elem].humidity;\n    } else if (msg.feature==\"rain\") {\n        if (true === msg.payload[elem].rain)\n            value = 100;\n        else\n            value = 0;\n    }\n    if (!value) {\n        node.warn (\"ignoring missing value\");\n        continue;\n    }     \n    \n    node.warn (\"entry \"+date_str+\" \"+value);\n    newMsg.payload.detail[date_str] = value;\n\n    newMsg.payload.raw.length = (idx+1);\n    newMsg.payload.raw[idx] = msg.payload[elem];\n\n    idx++;\n// uncomment these lines to limit the size of data returned\n//    if (idx>25)\n//        break;\n    \n}\n\n//return newMsg;\nmsg.payload = newMsg.payload;\nreturn msg;\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 578,
+    "y": 88,
+    "wires": [
+      [
+        "f42b84c.1529678"
+      ]
+    ]
+  },
+  {
+    "id": "3e97e33a.c1681c",
+    "type": "debug",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 777.0000610351562,
+    "y": 127,
+    "wires": []
+  },
+  {
+    "id": "fb2f55b7.04d0a8",
+    "type": "function",
+    "z": "ae0cc548.49bd68",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 316,
+    "y": 206,
+    "wires": [
+      [
+        "26170f68.e999b"
+      ]
+    ]
+  },
+  {
+    "id": "d28f2d70.2d70d",
+    "type": "function",
+    "z": "ab1502c9.89084",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 511,
+    "y": 324,
+    "wires": [
+      [
+        "87899498.e2bd68"
+      ]
+    ]
+  },
+  {
+    "id": "d88cd34a.27733",
+    "type": "function",
+    "z": "8055167a.7faae8",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 457,
+    "y": 177,
+    "wires": [
+      [
+        "79ca50cf.8635b"
+      ]
+    ]
+  },
+  {
+    "id": "1019f88d.efe607",
+    "type": "http in",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "url": "/check",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 75,
+    "y": 159.99999237060547,
+    "wires": [
+      [
+        "ecafb729.135048"
+      ]
+    ]
+  },
+  {
+    "id": "ecafb729.135048",
+    "type": "function",
+    "z": "84100be2.7beff8",
+    "name": "Build Query",
+    "func": "msg.headers = {\"content-type\" : \"application/json\"};\n\n// figure out todays date\nvar d = new Date();\n//node.warn (\"Pretty date \"+d);\nvar ds = d.toISOString();\n//node.warn (\"ISO date \"+ds);\nds = ds.substring(0,10);\nif (msg.payload.date_str)\n    ds = msg.payload.date_str;\nmsg.ds = ds;\nmsg.query =\"request_date:\\\"\"+ds+\"\\\"\";\n\nif (msg.payload.detail) {\n    msg.detail = msg.payload.detail;\n    node.warn (\"Looking for detail \"+msg.detail);\n}\n\nif (msg.payload.daysa) {\n    msg.query += \" AND daysa:\"+msg.payload.daysa; \n    msg.daysa = msg.payload.daysa; \n}\nnode.warn (\"query string: \"+msg.query);\n\nmsg.payload = {};\nmsg.payload.query = msg.query;\nmsg.payload.limit= 200;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 259.99998474121094,
+    "y": 158.99999237060547,
+    "wires": [
+      [
+        "919fbc06.6e604",
+        "c95aaf41.25f5"
+      ]
+    ]
+  },
+  {
+    "id": "919fbc06.6e604",
+    "type": "cloudant in",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "cloudant": "",
+    "database": "forecasts",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "search": "_idx_",
+    "design": "views",
+    "index": "newWeather",
+    "x": 432.99999237060547,
+    "y": 148.66661834716797,
+    "wires": [
+      [
+        "4d6fe5c8.b2901c"
+      ]
+    ]
+  },
+  {
+    "id": "4d6fe5c8.b2901c",
+    "type": "function",
+    "z": "84100be2.7beff8",
+    "name": "Format Check Data",
+    "func": "// a function to convert a date sring to a numeric value for comparison\nfunction dateNum (dStr)\t{\n    var str = dStr.substring(0,4);\n    //node.warn (\"part1=\"+str);\n    str += dStr.substring(5,7);\n    //node.warn (\"part2=\"+str);\n    str += dStr.substring(8,10);\n    //node.warn (\"part3=\"+str);\n    var num = parseInt(str);\n    //node.warn (\"Date=\"+dStr+\" Shorten=\"+str+\" num=\"+num);\n    return num;\n}\n\nvar newMsg = {};\nnewMsg.payload = {};\nvar cityList = {};\nnode.warn(\"parsing check results\");\nvar idx = 0;\nfor (var elem in msg.payload) {\n    //node.warn (\"idx=\"+idx);\n    //newMsg.payload.raw.length = (idx+1);\n    newMsg.payload[idx] = msg.payload[elem];\n    var city = msg.payload[elem].city;\n    var provider = msg.payload[elem].provider;\n    if (cityList[city]) {\n        cityList[city].count++;\n        cityList[city].providers.length++;\n        cityList[city].providers[cityList[city].providers.length-1] = provider;\n        //node.warn(\"We already know about \"+city+\" so this is record # \"+cityList[city].providers.length);\n    } else {\n        //node.warn(\"This is our first record about \"+city);\n        cityList[city] = {};\n        cityList[city].count = 1;\n        cityList[city].providers = [];\n        cityList[city].providers.length = 1;\n        cityList[city].providers[0] = provider;\n    }\n\n    idx++;\n}\nnode.warn (\"Returned information about \"+idx+\" weather readings/forecasts\");\n\nif (msg.detail) {\n    //node.warn(\"Will return details=\"+msg.detail);\n    if (msg.detail===\"true\") {\n        msg.payload = newMsg.payload;\n    } else if (msg.detail===\"city\") {\n        msg.payload = cityList;\n    }\n\n    //msg.payload.count =idx;\n} else {\n    msg.payload = idx;\n}\nreturn msg;\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 633.6667022705078,
+    "y": 175.99999237060547,
+    "wires": [
+      [
+        "c7c22918.383dd8"
+      ]
+    ]
+  },
+  {
+    "id": "c7c22918.383dd8",
+    "type": "http response",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "x": 803.6668090820312,
+    "y": 182,
+    "wires": []
+  },
+  {
+    "id": "d23fb793.2dc048",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Canterbury",
+    "topic": "",
+    "payload": "{\"CITY\": \"Canterbury\",\"LAT\":-43.6, \"LONG\":172, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "32 0 * * *",
+    "once": false,
+    "x": 121,
+    "y": 30,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "9ebf1bda.6140e8",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Coral Springs",
+    "topic": "",
+    "payload": "{\"CITY\": \"Coral Springs\",\"LAT\":26.27, \"LONG\":-80.26, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "21 17 * * *",
+    "once": false,
+    "x": 122,
+    "y": 405,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "a9e973f8.56169",
+    "type": "inject",
+    "z": "742722e4.073ffc",
+    "name": "Honolulu",
+    "topic": "",
+    "payload": "{\"CITY\": \"Honolulu\",\"LAT\":21.3, \"LONG\":-157.82, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "31 22 * * *",
+    "once": false,
+    "x": 148.99999809265137,
+    "y": 497.9999876022339,
+    "wires": [
+      [
+        "ed8e51af.55f1f8"
+      ]
+    ]
+  },
+  {
+    "id": "ca5f21d2.35a0e",
+    "type": "function",
+    "z": "f885654.f077a98",
+    "name": "DarkSky URL",
+    "func": "var api_key = \"cc23ba926ba733bfd5175d945f21f5c8\";\nmsg.url = \"https://api.darksky.net/forecast/\"+api_key+\"/\"+msg.payload.LAT+\",\"+msg.payload.LONG+\"?units=ca\";\nnode.warn(\"DarkSky URL \"+msg.url);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 302,
+    "y": 130,
+    "wires": [
+      [
+        "7730a56.f88cf5c"
+      ]
+    ]
+  },
+  {
+    "id": "eb554f2.f14aab",
+    "type": "function",
+    "z": "f885654.f077a98",
+    "name": "Parse DarkSky Forecast",
+    "func": "var provider_name=\"darksky\";\n\nvar curr_city = msg.city;\nvar request_date = msg.request_date;\nnode.warn (\"DarkSky report from city \"+curr_city+\" for \"+request_date);\nvar d=new Date(msg.request_date);\n\nvar temp = msg.payload.currently.temperature;\nif (!temp) {\n    node.error (\"darksky returned no report on current weather  for \" +curr_city + \" at \" + request_date);\n    return null;\n}\n//node.warn(\"darksky current temp=\"+temp);\nvar pressure = msg.payload.currently.pressure;\n//node.warn(\"darksky current pressure=\"+pressure);\nvar humidity = 100 * msg.payload.currently.humidity;\n//node.warn(\"darksky current humidity=\"+humidity);\nvar windspeedKmph = msg.payload.currently.windSpeed;\n//node.warn(\"darksky current windspeedKmph=\"+windspeedKmph);\nvar winddirDegree = msg.payload.currently.windBearing;\n//node.warn(\"darksky current winddirDegree=\"+winddirDegree);\nvar precipProbability = msg.payload.currently.precipProbability;\n//node.warn(\"darksky current precipProbability=\"+precipProbability);\nvar rain = true;\nif (0===precipProbability)\n    rain = false;\nvar newMsg = {payload:{provider:provider_name,request_date:request_date,city:curr_city,rain:rain}};\nnewMsg.payload.temp = temp;\nnewMsg.payload.humidity = humidity;\nnewMsg.payload.pressure = pressure;\nnewMsg.payload.wind_speed = windspeedKmph;\nnewMsg.payload.wind_dir = winddirDegree;\nnode.send (newMsg);\n\nvar forecasts=msg.payload.daily.data;\nif (!forecasts) {\n    node.error (\"darksky returned no weather forecast for \" +curr_city + \" at \" + request_date);\n    return null;\n}\nfor (i = 1; i < forecasts.length; i++) {\n    var fcstMsg = {payload:{provider:provider_name,request_date:request_date,city:curr_city,days_in_advance:i}};\n\n    fcstMsg.payload.temp_max = forecasts[i].temperatureMax;\n    fcstMsg.payload.temp_min = forecasts[i].temperatureMin;\n    fcstMsg.payload.temp = forecasts[i].temperatureMax;\n    fcstMsg.payload.pressure = forecasts[i].pressure;\n    fcstMsg.payload.humidity = 100*forecasts[i].humidity;\n    fcstMsg.payload.wind_speed = forecasts[i].windSpeed;\n    fcstMsg.payload.wind_dir = forecasts[i].winddirBearing;\n\n    precipProbability = forecasts[i].precipProbability;\n    if (0===precipProbability)\n        fcstMsg.payload.rain = false;\n    else\n        fcstMsg.payload.rain = true;\n\n    fcstMsg.payload.forecast_date = new Date(1900+d.getYear(), d.getMonth(), i+d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds());\n    //node.warn (d+\" plus \"+i+\" days is \"+fcstMsg.payload.forecast_date);\n\n    //node.warn (\"forecast for day \" + i + \" from \" + temp_min + \" to \" + temp_max);\n    node.send (fcstMsg);\n}\nreturn null;\n\n\n\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 595,
+    "y": 135,
+    "wires": [
+      [
+        "b8e3eeb0.471c1"
+      ]
+    ]
+  },
+  {
+    "id": "7730a56.f88cf5c",
+    "type": "http request",
+    "z": "f885654.f077a98",
+    "name": "",
+    "method": "GET",
+    "ret": "obj",
+    "url": "",
+    "tls": "",
+    "x": 430.75001525878906,
+    "y": 205,
+    "wires": [
+      [
+        "eb554f2.f14aab",
+        "751f12f4.8ae0ec"
+      ]
+    ]
+  },
+  {
+    "id": "16c0beed.e93f41",
+    "type": "cloudant out",
+    "z": "f885654.f077a98",
+    "name": "darksky-cloudant",
+    "cloudant": "",
+    "database": "darksky",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 824.7500152587891,
+    "y": 246,
+    "wires": []
+  },
+  {
+    "id": "751f12f4.8ae0ec",
+    "type": "function",
+    "z": "f885654.f077a98",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 602.7500152587891,
+    "y": 244,
+    "wires": [
+      [
+        "16c0beed.e93f41"
+      ]
+    ]
+  },
+  {
+    "id": "b8e3eeb0.471c1",
+    "type": "debug",
+    "z": "f885654.f077a98",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 781,
+    "y": 72,
+    "wires": []
+  },
+  {
+    "id": "b770eec9.488f1",
+    "type": "subflow:f885654.f077a98",
+    "z": "742722e4.073ffc",
+    "x": 548,
+    "y": 102,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "faed283e.152338",
+    "type": "weather_insights",
+    "z": "ae878406.8d6b18",
+    "name": "Bluemix Forecast",
+    "service": "/forecast/daily/10day.json",
+    "geocode": "",
+    "units": "m",
+    "language": "",
+    "x": 427.5,
+    "y": 128.00001525878906,
+    "wires": [
+      [
+        "333a95d9.67432a",
+        "50bebe6d.881c6"
+      ]
+    ]
+  },
+  {
+    "id": "81ba7dbe.3472",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "LatLon",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = msg.payload.request_date;\n\nvar latlon = msg.payload.LAT;\nlatlon += \",\";\nlatlon += msg.payload.LONG;\nmsg.payload = latlon;\nnode.warn(\"Payload: \"+msg.payload);\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 223.5,
+    "y": 89.85713958740234,
+    "wires": [
+      [
+        "b12f7acf.577748",
+        "faed283e.152338"
+      ]
+    ]
+  },
+  {
+    "id": "b12f7acf.577748",
+    "type": "weather_insights",
+    "z": "ae878406.8d6b18",
+    "name": "Bluemix Weather",
+    "service": "/observations.json",
+    "geocode": "",
+    "units": "m",
+    "language": "",
+    "x": 463,
+    "y": 65,
+    "wires": [
+      [
+        "3750f4fc.87c9fc",
+        "50bebe6d.881c6"
+      ]
+    ]
+  },
+  {
+    "id": "333a95d9.67432a",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "Forecast to Payload",
+    "func": "msg.payload = msg.forecasts;\n//msg.payload.request_date = msg.request_date;\n//msg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 678,
+    "y": 154,
+    "wires": [
+      [
+        "1aea7980.5084c3",
+        "3ffd80be.cb277",
+        "d047a110.2fb86"
+      ]
+    ]
+  },
+  {
+    "id": "3750f4fc.87c9fc",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "Weather to Payload",
+    "func": "msg.payload = msg.observation;\n//msg.payload.request_date = msg.request_date;\n//msg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 708,
+    "y": 65,
+    "wires": [
+      [
+        "1aea7980.5084c3",
+        "23f010c9.e1c14",
+        "d047a110.2fb86"
+      ]
+    ]
+  },
+  {
+    "id": "6ee27a5e.37aae4",
+    "type": "cloudant out",
+    "z": "ae878406.8d6b18",
+    "name": "Bluemix Weather DB",
+    "cloudant": "c0e6d7d7.8d0988",
+    "database": "bluemix",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 995,
+    "y": 244,
+    "wires": []
+  },
+  {
+    "id": "3ffd80be.cb277",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "Parse Forecast",
+    "func": "var provider_name=\"BlueMix\";\n\nvar curr_city = msg.city;\nnode.warn (\"BlueMix forcast from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\n\nvar forecasts=msg.forecasts;\n\nnode.warn(\"List length = \"+forecasts.length);\nfor (i = 1; i < forecasts.length; i++) {\n    var temp = forecasts[i].day.temp;\n    var temp_min = forecasts[i].min_temp;\n    var temp_max = forecasts[i].max_temp;\n    //node.warn(\"temp=\"+temp+\" max=\"+temp_max+\" min=\"+temp_min);\n\n    newMsg.payload.request_date = msg.request_date;\n    \n    newMsg.payload.days_in_advance = i;\n    newMsg.payload.temp = temp;\n    newMsg.payload.temp_max = temp_max;\n    newMsg.payload.temp_min = temp_min;\n    newMsg.payload.humidity = forecasts[i].day.rh;\n    // does it support pressure???\n    //newMsg.payload.pressure = null; //forecasts[i].day.pressure;\n    newMsg.payload.wind_speed = forecasts[i].day.wspd;\n    newMsg.payload.wind_dir = forecasts[i].day.wdir;\n    if (\"rain\"===forecasts[i].precip_type)\n        newMsg.payload.rain = true;\n    else\n        newMsg.payload.rain = false;\n\tnewMsg.payload.forecast_date = forecasts[i].fcst_valid_local;\n    \n    node.send (newMsg);\n}\n\nreturn null;\n\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 983,
+    "y": 186,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "23f010c9.e1c14",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "Parse Weather",
+    "func": "var provider_name=\"BlueMix\";\n\nvar curr_city = msg.city;\nnode.warn (\"BlueMix observation report from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\n\nvar obs = msg.observation;\n\nnewMsg.payload.temp = obs.temp;\nnewMsg.payload.temp_min = obs.min_temp;\nnewMsg.payload.temp_max = obs.max_temp;\nnewMsg.payload.pressure = obs.pressure;\nnewMsg.payload.humidity = obs.rh;\nnewMsg.payload.wind_speed = obs.wspd;\nnewMsg.payload.wind_dir = obs.wdir;\nif (0===obs.precip_total)\n    newMsg.payload.rain = false;\nelse\n    newMsg.payload.rain = true;\nnewMsg.payload.rainfall = obs.precip_total;\n\n//node.warn(\"temp=\"+temp+\" temp_max=\"+temp_max+\"temp_min=\"+temp_min+\" pressure=\"+main.pressure+\" humidity=\"+main.humidity);\n\nreturn newMsg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 970,
+    "y": 46,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "50bebe6d.881c6",
+    "type": "debug",
+    "z": "ae878406.8d6b18",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 641,
+    "y": 105,
+    "wires": []
+  },
+  {
+    "id": "103f0d38.4610f3",
+    "type": "subflow:ae878406.8d6b18",
+    "z": "742722e4.073ffc",
+    "x": 553,
+    "y": 141,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "c95aaf41.25f5",
+    "type": "debug",
+    "z": "84100be2.7beff8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 432.2856979370117,
+    "y": 190.42855072021484,
+    "wires": []
+  },
+  {
+    "id": "d047a110.2fb86",
+    "type": "function",
+    "z": "ae878406.8d6b18",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 789,
+    "y": 244,
+    "wires": [
+      [
+        "6ee27a5e.37aae4"
+      ]
+    ]
+  },
+  {
+    "id": "87324b89.455dc8",
+    "type": "cloudant out",
+    "z": "c909a211.266ac",
+    "name": "forecasts",
+    "cloudant": "",
+    "database": "forecasts",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": true,
+    "operation": "insert",
+    "x": 1000.25,
+    "y": 232,
+    "wires": []
+  },
+  {
+    "id": "661fbed0.70b29",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Dublin",
+    "topic": "",
+    "payload": "{\"CITY\": \"Dublin\",\"LAT\":53.4, \"LONG\":-6.4, \"WUNDER\":\"IDUBLIN85\", \"WOEID\":\"560743\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 78.25,
+    "y": 244,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "36d3a9b0.b53f76",
+    "type": "debug",
+    "z": "c909a211.266ac",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 381.75,
+    "y": 493,
+    "wires": []
+  },
+  {
+    "id": "d68aea00.f41ef8",
+    "type": "function",
+    "z": "c909a211.266ac",
+    "name": "Multiplex",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = new Date();\nmsg.payload.request_date = msg.request_date;\nmsg.payload.mode = \"repair\";\nmsg.payload.ts = \"TIMESTAMP\";\nreturn msg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 300.3749694824219,
+    "y": 226.06251525878906,
+    "wires": [
+      [
+        "981e9215.da3c7"
+      ]
+    ]
+  },
+  {
+    "id": "e475a4af.8f2428",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Clemmons",
+    "topic": "",
+    "payload": "{\"CITY\": \"Clemmons\",\"LAT\":36, \"LONG\":-80.4, \"WUNDER\":\"KNCCLEMM2\", \"WOEID\":\"2381385\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 100,
+    "y": 441.25,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "910b816.3a27d8",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Cape Town",
+    "topic": "",
+    "payload": "{\"CITY\": \"Cape Town\",\"LAT\":-34, \"LONG\":18.5, \"WUNDER\":\"IWESTERN589\", \"WOEID\":\"1591691\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 85,
+    "y": 136.7500228881836,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "b3a40116.ea935",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Isle of Wight",
+    "topic": "",
+    "payload": "{\"CITY\": \"Isle of Wight\",\"LAT\":50.7, \"LONG\":-1.3, \"WUNDER\":\"INEWPORT24\", \"WOEID\":\"35356\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 93,
+    "y": 207.25,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "58a1ef63.5d5cb",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Perth",
+    "topic": "",
+    "payload": "{\"CITY\": \"Perth\",\"LAT\":-32, \"LONG\":115.9, \"WUNDER\":\"IWESTERN361\", \"WOEID\":\"1098081\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 90.25,
+    "y": 57.5,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "7dffbc29.ac34c4",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Lanzarote",
+    "topic": "",
+    "payload": "{\"CITY\": \"Lanzarote\",\"LAT\":29, \"LONG\":-13.6, \"WUNDER\":\"ILASPALM1\", \"WOEID\":\"12523048\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 85.5,
+    "y": 316,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "7455dd64.2d3a84",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Galway",
+    "topic": "",
+    "payload": "{\"CITY\": \"Galway\",\"LAT\":53.27, \"LONG\":-9.04, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 77.25,
+    "y": 278,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "15799bc2.0ea5f4",
+    "type": "cloudant out",
+    "z": "c909a211.266ac",
+    "name": "cloudant-log",
+    "cloudant": "",
+    "database": "log",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 386.5,
+    "y": 534,
+    "wires": []
+  },
+  {
+    "id": "981e9215.da3c7",
+    "type": "subflow:ae0cc548.49bd68",
+    "z": "c909a211.266ac",
+    "name": "",
+    "x": 539.4474639892578,
+    "y": 180.3636474609375,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "a11f8272.6cfda",
+    "type": "subflow:ab1502c9.89084",
+    "z": "c909a211.266ac",
+    "x": 522.625,
+    "y": 281,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "990da368.3dc7e",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Antartica",
+    "topic": "",
+    "payload": "{\"CITY\": \"Antartica\",\"LAT\":-89.9, \"LONG\":0, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD1\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 91,
+    "y": 171,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "be09708d.d79f7",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Rio de Janeiro",
+    "topic": "",
+    "payload": "{\"CITY\": \"Rio de Janeiro\",\"LAT\":-22.908333, \"LONG\":-43.196389, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 94,
+    "y": 358.0000457763672,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "166eca1d.8d62e6",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Luxor",
+    "topic": "",
+    "payload": "{\"CITY\": \"Luxor\",\"LAT\":25.683333, \"LONG\":32.65, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD1\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 87,
+    "y": 96,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "61714c1a.cce474",
+    "type": "subflow:8055167a.7faae8",
+    "z": "c909a211.266ac",
+    "x": 538,
+    "y": 231,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "b97318a0.b73e88",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Rio de Janeiro",
+    "topic": "",
+    "payload": "{\"CITY\": \"Rio de Janeiro\",\"LAT\":-22.908333, \"LONG\":-43.196389, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "52 14 * * *",
+    "once": false,
+    "x": 402.75,
+    "y": 858,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5035ebed.2bf6f4",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Canterbury",
+    "topic": "",
+    "payload": "{\"CITY\": \"Canterbury\",\"LAT\":-43.6, \"LONG\":172, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 99,
+    "y": 20,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "bfcf7cb5.55054",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Coral Springs",
+    "topic": "",
+    "payload": "{\"CITY\": \"Coral Springs\",\"LAT\":26.27, \"LONG\":-80.26, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 94,
+    "y": 401.00001525878906,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "94b978b2.4b80a8",
+    "type": "inject",
+    "z": "c909a211.266ac",
+    "name": "Honolulu",
+    "topic": "",
+    "payload": "{\"CITY\": \"Honolulu\",\"LAT\":21.3, \"LONG\":-157.82, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 103,
+    "y": 488,
+    "wires": [
+      [
+        "d68aea00.f41ef8"
+      ]
+    ]
+  },
+  {
+    "id": "68aa6123.4ce81",
+    "type": "subflow:f885654.f077a98",
+    "z": "c909a211.266ac",
+    "x": 548,
+    "y": 85,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "d442bba.a6af448",
+    "type": "subflow:ae878406.8d6b18",
+    "z": "c909a211.266ac",
+    "x": 527,
+    "y": 131,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "a26dfd5d.e1366",
+    "type": "function",
+    "z": "bfabf257.2b6d8",
+    "name": "Yr.No forecast URL",
+    "func": "var url=\"http://api.met.no/weatherapi/locationforecast/1.9/?lat=\";\n\nurl += msg.payload.LAT;\nurl += \";lon=\";\nurl += msg.payload.LONG;\nmsg.url = url;\nnode.warn(url);\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 178.50001525878906,
+    "y": 132.60000610351562,
+    "wires": [
+      [
+        "1e6dae3e.6c6e52"
+      ]
+    ]
+  },
+  {
+    "id": "72eaeb81.7bd8d4",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Dublin",
+    "topic": "",
+    "payload": "{\"CITY\": \"Dublin\",\"LAT\":53.4, \"LONG\":-6.4, \"WUNDER\":\"IDUBLIN85\", \"WOEID\":\"560743\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 79.19999694824219,
+    "y": 248.1999969482422,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "eb5aeb0d.0567d8",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Galway",
+    "topic": "",
+    "payload": "{\"CITY\": \"Galway\",\"LAT\":53.27, \"LONG\":-9.04, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 83.20001220703125,
+    "y": 294.20001220703125,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "1e6dae3e.6c6e52",
+    "type": "http request",
+    "z": "bfabf257.2b6d8",
+    "name": "",
+    "method": "GET",
+    "ret": "txt",
+    "url": "",
+    "tls": "",
+    "x": 370.90003967285156,
+    "y": 131.79999542236328,
+    "wires": [
+      [
+        "bab50d17.09598"
+      ]
+    ]
+  },
+  {
+    "id": "bab50d17.09598",
+    "type": "xml",
+    "z": "bfabf257.2b6d8",
+    "name": "",
+    "attr": "",
+    "chr": "",
+    "x": 525.9000396728516,
+    "y": 129.60000610351562,
+    "wires": [
+      [
+        "90fa16f2.a5df08",
+        "5ff9ad8d.22e034"
+      ]
+    ]
+  },
+  {
+    "id": "90fa16f2.a5df08",
+    "type": "function",
+    "z": "bfabf257.2b6d8",
+    "name": "Parse yr.no",
+    "func": "var forecasts= msg.payload.weatherdata.product[0].time;\nvar provider_name = \"yr.no\";\nvar request_date = msg.request_date;\nvar curr_city = msg.city;\nnode.warn(\"curr_city=\"+curr_city+\" request_date=\"+request_date+\" provider=\"+provider_name);\n\n//node.warn(\"weatherdata.length=\"+msg.payload.weatherdata.length);\n//node.warn(\"weatherdata.meta.length=\"+msg.payload.weatherdata.meta.length);\n//node.warn(\"weatherdata.product.length=\"+msg.payload.weatherdata.product.length);\n//node.warn(\"forecasts.length=\"+forecasts.length);\nvar startDateStr = forecasts[0].$.from;\n//node.warn(\"startDateStr=\"+startDateStr);\nvar targetDate = (new Date(startDateStr));\n//node.warn(\"initial targetDate=\"+targetDate.toISOString());\n//Move target date on by one day\nvar targetDate = new Date(1900+targetDate.getYear(), targetDate.getMonth(), 1+targetDate.getDate(), targetDate.getHours(), targetDate.getMinutes(), targetDate.getSeconds(), targetDate.getMilliseconds());\nvar targetDateStr = targetDate.toISOString();\n//node.warn(\"adjusted targetDate=\"+targetDate.toISOString());\nvar daysa=0;\n\nfor (i = 0; i < forecasts.length; i++) {\n    var fcstMsg = {payload:{provider:provider_name,request_date:request_date,city:curr_city}};\n    //node.send(forecasts[i]);\n    //fcstMsg.payload.data = forecasts[i];\n    //if (i<5) node.send(fcstMsg);\n    var itemDateStr = forecasts[i].$.to;\n    var itemDate = new Date(itemDateStr);\n    //if (i<150) node.warn(\"looking for \"+targetDateStr+\" item \"+i+ \" has \"+  itemDateStr);\n    //if (i<150) node.warn(\"looking for \"+targetDate+\" item \"+i+ \" has \"+  itemDate);\n    if ((0===i) || (itemDate.getTime() >= targetDate.getTime())) {\n        //node.warn(\"item \"+i+ \" matches daysa \"+daysa+\" with \"+itemDate+\" for \"+targetDate);\n        if (0!==daysa) {\n            fcstMsg.payload.days_in_advance = daysa;\n            fcstMsg.payload.forecast_date = targetDate.toISOString();\n        }\n        daysa++;\n        fcstMsg.payload.temp = Number(forecasts[i].location[0].temperature[0].$.value);\n        fcstMsg.payload.pressure = Number(forecasts[i].location[0].pressure[0].$.value);\n        fcstMsg.payload.humidity = Number(forecasts[i].location[0].humidity[0].$.value);\n        fcstMsg.payload.wind_speed = Number(forecasts[i].location[0].windSpeed[0].$.mps)*3.6;\n        fcstMsg.payload.wind_dir = Number(forecasts[i].location[0].windDirection[0].$.deg);\n        fcstMsg.payload.rainfall = Number(forecasts[i+1].location[0].precipitation[0].$.value);\n        if (0 === fcstMsg.payload.precipMM) {\n            fcstMsg.payload.rain = false;\n        } else {\n            fcstMsg.payload.rain = false;\n        }\n        //fcstMsg.payload.temp = forecasts[i].location[0].temperature.value;\n        //fcstMsg.payload.data3 = forecasts[i].location;\n        node.send(fcstMsg);\n        targetDate = new Date(1900+targetDate.getYear(), targetDate.getMonth(), 1+targetDate.getDate(), targetDate.getHours(), targetDate.getMinutes(), targetDate.getSeconds(), targetDate.getMilliseconds());\n        //node.warn (\"new target for day \"+daysa+\"=\"+targetDate.toISOString());\n    }\n}\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 597.9000396728516,
+    "y": 189.60000610351562,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d50e239f.91cde",
+    "type": "debug",
+    "z": "54642772.ab9bd8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 683.2000274658203,
+    "y": 246.1999969482422,
+    "wires": []
+  },
+  {
+    "id": "fef77925.825838",
+    "type": "function",
+    "z": "54642772.ab9bd8",
+    "name": "Multiplex",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = new Date();\nmsg.payload.request_date = msg.request_date;\nmsg.payload.ts = \"TIMESTAMP\";\nreturn msg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 226.1999969482422,
+    "y": 230.1999969482422,
+    "wires": [
+      [
+        "b30d3cad.69b32"
+      ]
+    ]
+  },
+  {
+    "id": "88a47df2.c88b8",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Perth",
+    "topic": "",
+    "payload": "{\"CITY\": \"Perth\",\"LAT\":-32, \"LONG\":115.9, \"WUNDER\":\"IWESTERN361\", \"WOEID\":\"1098081\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 84.19999694824219,
+    "y": 214.20001220703125,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "3b56f473.6327dc",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Canterbury",
+    "topic": "",
+    "payload": "{\"CITY\": \"Canterbury\",\"LAT\":-43.6, \"LONG\":172, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 76.94999694824219,
+    "y": 180.70001220703125,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "19cf18da.9133e7",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Clemmons",
+    "topic": "",
+    "payload": "{\"CITY\": \"Clemmons\",\"LAT\":36, \"LONG\":-80.4, \"WUNDER\":\"KNCCLEMM2\", \"WOEID\":\"2381385\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 79.94999694824219,
+    "y": 345.9500274658203,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "ed38a42a.f8ec08",
+    "type": "inject",
+    "z": "54642772.ab9bd8",
+    "name": "Honolulu",
+    "topic": "",
+    "payload": "{\"CITY\": \"Honolulu\",\"LAT\":21.3, \"LONG\":-157.82, \"WUNDER\":\"TBD\", \"WOEID\":\"TBD\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 82.94999694824219,
+    "y": 392.7000274658203,
+    "wires": [
+      [
+        "fef77925.825838"
+      ]
+    ]
+  },
+  {
+    "id": "b30d3cad.69b32",
+    "type": "subflow:bfabf257.2b6d8",
+    "z": "54642772.ab9bd8",
+    "x": 388.2000274658203,
+    "y": 159.60000610351562,
+    "wires": [
+      [
+        "d50e239f.91cde"
+      ]
+    ]
+  },
+  {
+    "id": "58464177.196a4",
+    "type": "subflow:bfabf257.2b6d8",
+    "z": "c909a211.266ac",
+    "x": 560.4999847412109,
+    "y": 33.79999542236328,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "d0646098.10752",
+    "type": "subflow:bfabf257.2b6d8",
+    "z": "742722e4.073ffc",
+    "x": 536.4999847412109,
+    "y": 47.79999542236328,
+    "wires": [
+      [
+        "31b9dee3.ce4622"
+      ]
+    ]
+  },
+  {
+    "id": "5ff9ad8d.22e034",
+    "type": "cloudant out",
+    "z": "bfabf257.2b6d8",
+    "name": "",
+    "cloudant": "",
+    "database": "yr-no",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 674.9000091552734,
+    "y": 113.39999389648438,
+    "wires": []
+  },
+  {
+    "id": "17aecadf.e85135",
+    "type": "function",
+    "z": "52d9a622.ad2658",
+    "name": "LatLon",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = msg.payload.request_date;\n\nvar latlon = msg.payload.LAT;\nlatlon += \",\";\nlatlon += msg.payload.LONG;\nmsg.payload = latlon;\nnode.warn(\"Payload: \"+msg.payload);\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 257,
+    "y": 137,
+    "wires": [
+      [
+        "b4933232.4b6cd"
+      ]
+    ]
+  },
+  {
+    "id": "d78f032e.2871",
+    "type": "debug",
+    "z": "52d9a622.ad2658",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 979.5,
+    "y": 191.89286041259766,
+    "wires": []
+  },
+  {
+    "id": "b4933232.4b6cd",
+    "type": "weather_insights",
+    "z": "52d9a622.ad2658",
+    "name": "Bluemix Weather",
+    "service": "/observations.json",
+    "geocode": "",
+    "units": "m",
+    "language": "",
+    "x": 496.5,
+    "y": 112.14286041259766,
+    "wires": [
+      [
+        "68ab0ec1.9754f"
+      ]
+    ]
+  },
+  {
+    "id": "68ab0ec1.9754f",
+    "type": "function",
+    "z": "52d9a622.ad2658",
+    "name": "Weather to Payload",
+    "func": "msg.payload = msg.observation;\n//msg.payload.request_date = msg.request_date;\n//msg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 741.5,
+    "y": 112.14286041259766,
+    "wires": [
+      [
+        "d78f032e.2871",
+        "c2ab96d4.3d5468",
+        "36ac530c.c953ac"
+      ]
+    ]
+  },
+  {
+    "id": "159a6b7.fea6595",
+    "type": "cloudant out",
+    "z": "52d9a622.ad2658",
+    "name": "Bluemix Weather DB",
+    "cloudant": "c0e6d7d7.8d0988",
+    "database": "bluemix",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 1028.5,
+    "y": 291.14286041259766,
+    "wires": []
+  },
+  {
+    "id": "c2ab96d4.3d5468",
+    "type": "function",
+    "z": "52d9a622.ad2658",
+    "name": "Parse Weather",
+    "func": "var provider_name=\"BlueMix\";\n\nvar curr_city = msg.city;\nnode.warn (\"BlueMix observation report from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\n\nvar obs = msg.observation;\n\nnewMsg.payload.temp = obs.temp;\nnewMsg.payload.temp_min = obs.min_temp;\nnewMsg.payload.temp_max = obs.max_temp;\nnewMsg.payload.pressure = obs.pressure;\nnewMsg.payload.humidity = obs.rh;\nnewMsg.payload.wind_speed = obs.wspd;\nnewMsg.payload.wind_dir = obs.wdir;\nif (0===obs.precip_total)\n    newMsg.payload.rain = false;\nelse\n    newMsg.payload.rain = true;\nnewMsg.payload.rainfall = obs.precip_total;\n\n//node.warn(\"temp=\"+temp+\" temp_max=\"+temp_max+\"temp_min=\"+temp_min+\" pressure=\"+main.pressure+\" humidity=\"+main.humidity);\n\nreturn newMsg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 1003.5,
+    "y": 93.14286041259766,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "36ac530c.c953ac",
+    "type": "function",
+    "z": "52d9a622.ad2658",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 822.5,
+    "y": 291.14286041259766,
+    "wires": [
+      [
+        "159a6b7.fea6595"
+      ]
+    ]
+  },
+  {
+    "id": "7cbd32f5.8342cc",
+    "type": "function",
+    "z": "a2e8fcb2.5d17",
+    "name": "LatLon",
+    "func": "msg.city = msg.payload.CITY;\nmsg.request_date = msg.payload.request_date;\n\nvar latlon = msg.payload.LAT;\nlatlon += \",\";\nlatlon += msg.payload.LONG;\nmsg.payload = latlon;\nnode.warn(\"Payload: \"+msg.payload);\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 277.5,
+    "y": 144.85713958740234,
+    "wires": [
+      [
+        "e87b21ab.1784e"
+      ]
+    ]
+  },
+  {
+    "id": "6a13400c.95ecc",
+    "type": "debug",
+    "z": "a2e8fcb2.5d17",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 1000,
+    "y": 199.75,
+    "wires": []
+  },
+  {
+    "id": "e87b21ab.1784e",
+    "type": "weather_insights",
+    "z": "a2e8fcb2.5d17",
+    "name": "Bluemix Forecast",
+    "service": "/forecast/daily/10day.json",
+    "geocode": "",
+    "units": "m",
+    "language": "",
+    "x": 481.5,
+    "y": 183.00001525878906,
+    "wires": [
+      [
+        "eb65c9e2.149a38"
+      ]
+    ]
+  },
+  {
+    "id": "eb65c9e2.149a38",
+    "type": "function",
+    "z": "a2e8fcb2.5d17",
+    "name": "Forecast to Payload",
+    "func": "msg.payload = msg.forecasts;\n//msg.payload.request_date = msg.request_date;\n//msg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 732,
+    "y": 209,
+    "wires": [
+      [
+        "3e567868.c1a988",
+        "ce34f71c.31cb08"
+      ]
+    ]
+  },
+  {
+    "id": "f0860196.0f7a",
+    "type": "cloudant out",
+    "z": "a2e8fcb2.5d17",
+    "name": "Bluemix Weather DB",
+    "cloudant": "c0e6d7d7.8d0988",
+    "database": "bluemix",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 1049,
+    "y": 299,
+    "wires": []
+  },
+  {
+    "id": "3e567868.c1a988",
+    "type": "function",
+    "z": "a2e8fcb2.5d17",
+    "name": "Parse Forecast",
+    "func": "var provider_name=\"BlueMix\";\n\nvar curr_city = msg.city;\nnode.warn (\"BlueMix forcast from city \"+curr_city);\n\nvar newMsg = {payload:{provider:provider_name,request_date:msg.request_date,city:curr_city}};\n//node.send (newMsg);\n\nvar forecasts=msg.forecasts;\n\nnode.warn(\"List length = \"+forecasts.length);\nfor (i = 1; i < forecasts.length; i++) {\n    var temp = forecasts[i].day.temp;\n    var temp_min = forecasts[i].min_temp;\n    var temp_max = forecasts[i].max_temp;\n    //node.warn(\"temp=\"+temp+\" max=\"+temp_max+\" min=\"+temp_min);\n\n    newMsg.payload.request_date = msg.request_date;\n    \n    newMsg.payload.days_in_advance = i;\n    newMsg.payload.temp = temp;\n    newMsg.payload.temp_max = temp_max;\n    newMsg.payload.temp_min = temp_min;\n    newMsg.payload.humidity = forecasts[i].day.rh;\n    // does it support pressure???\n    //newMsg.payload.pressure = null; //forecasts[i].day.pressure;\n    newMsg.payload.wind_speed = forecasts[i].day.wspd;\n    newMsg.payload.wind_dir = forecasts[i].day.wdir;\n    if (\"rain\"===forecasts[i].precip_type)\n        newMsg.payload.rain = true;\n    else\n        newMsg.payload.rain = false;\n\tnewMsg.payload.forecast_date = forecasts[i].fcst_valid_local;\n    \n    node.send (newMsg);\n}\n\nreturn null;\n\n\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 1037,
+    "y": 241,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ce34f71c.31cb08",
+    "type": "function",
+    "z": "a2e8fcb2.5d17",
+    "name": "Label",
+    "func": "msg.payload.request_date = msg.request_date;\nmsg.payload.request_city = msg.city;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 843,
+    "y": 299,
+    "wires": [
+      [
+        "f0860196.0f7a"
+      ]
+    ]
+  },
+  {
+    "id": "5a7bd0ac.a5843",
+    "type": "subflow:52d9a622.ad2658",
+    "z": "c909a211.266ac",
+    "x": 519,
+    "y": 328,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "bf24b782.40db48",
+    "type": "subflow:a2e8fcb2.5d17",
+    "z": "c909a211.266ac",
+    "x": 515,
+    "y": 381,
+    "wires": [
+      [
+        "401e54cc.bfe1ac"
+      ]
+    ]
+  },
+  {
+    "id": "125cda08.eda326",
+    "type": "debug",
+    "z": "c909a211.266ac",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 1017,
+    "y": 291,
+    "wires": []
+  },
+  {
+    "id": "401e54cc.bfe1ac",
+    "type": "function",
+    "z": "c909a211.266ac",
+    "name": "Collect and Log",
+    "func": "\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 819.5,
+    "y": 232,
+    "wires": [
+      [
+        "87324b89.455dc8",
+        "125cda08.eda326"
+      ]
+    ]
+  },
+  {
+    "id": "fed64cb0.f929b8",
+    "type": "weather data",
+    "z": "54642772.ab9bd8",
+    "debug": false,
+    "name": "",
+    "x": 646,
+    "y": 438,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f58307e7.1c46b8",
+    "type": "weather_insights",
+    "z": "54642772.ab9bd8",
+    "name": "",
+    "service": "/forecast/daily/10day.json",
+    "geocode": "",
+    "units": "m",
+    "language": "",
+    "x": 535,
+    "y": 538,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "1b65bd36.ac3f13",
+    "type": "twitter in",
+    "z": "54642772.ab9bd8",
+    "twitter": "135c3861.dce5a",
+    "tags": "",
+    "user": "dm",
+    "name": "",
+    "topic": "tweets",
+    "inputs": 0,
+    "x": 621.5,
+    "y": 138,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b1d2f486.c40418",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "900",
+    "crontab": "",
+    "once": false,
+    "x": 102.42855834960938,
+    "y": 311.4285583496094,
+    "wires": [
+      [
+        "37a34291.ef4dae"
+      ]
+    ]
+  },
+  {
+    "id": "4cfa1362.2d41ec",
+    "type": "twitter out",
+    "z": "473b6f2e.8a153",
+    "twitter": "135c3861.dce5a",
+    "name": "Tweet",
+    "x": 771.4286041259766,
+    "y": 143.4285430908203,
+    "wires": []
+  },
+  {
+    "id": "3d77cb30.0fc534",
+    "type": "cloudant out",
+    "z": "473b6f2e.8a153",
+    "name": "mqtt-log",
+    "cloudant": "",
+    "database": "mqtt",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 318.50001525878906,
+    "y": 437.2857131958008,
+    "wires": []
+  },
+  {
+    "id": "442be450.481edc",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 342.50001525878906,
+    "y": 474.71424102783203,
+    "wires": []
+  },
+  {
+    "id": "8e3c538d.4f669",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "topic": "",
+    "payload": "Test from BlueMix Node red",
+    "payloadType": "str",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 105.42857360839844,
+    "y": 412.4285583496094,
+    "wires": [
+      [
+        "ad5c1aad.c96f2"
+      ]
+    ]
+  },
+  {
+    "id": "c36aa7ba.d5905",
+    "type": "mqtt in",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "topic": "weather/llweather",
+    "qos": "2",
+    "broker": "d94ad7e0.1e5d68",
+    "x": 114.00001525878906,
+    "y": 452.00001525878906,
+    "wires": [
+      [
+        "442be450.481edc",
+        "a599471f.e202c",
+        "3d77cb30.0fc534"
+      ]
+    ]
+  },
+  {
+    "id": "ad5c1aad.c96f2",
+    "type": "mqtt out",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "topic": "weather/llweather",
+    "qos": "",
+    "retain": "",
+    "broker": "d94ad7e0.1e5d68",
+    "x": 316.00001525878906,
+    "y": 392.00000762939453,
+    "wires": []
+  },
+  {
+    "id": "510a0f23.d1aeb8",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "MQTT sample",
+    "topic": "",
+    "payload": "{\"rel_pressue\": \"29.8636\", \"wind_ave\": \"0.67\", \"rain\": \"0\", \"rainin\": \"0\", \"hum_in\": \"53\", \"temp_in_f\": \"63.0\", \"dailyrainin\": \"0.0944882\", \"wind_dir\": \"270\", \"temp_in_c\": \"17.2\", \"hum_out\": \"87\", \"dailyrain\": \"2.4\", \"wind_gust\": \"2.24\", \"idx\": \"2017-03-06 21:17:28\", \"temp_out_f\": \"37.4\", \"temp_out_c\": \"3.0\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 108,
+    "y": 518.0000076293945,
+    "wires": [
+      [
+        "442be450.481edc",
+        "a599471f.e202c"
+      ]
+    ]
+  },
+  {
+    "id": "a599471f.e202c",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "Get Temp",
+    "func": "var temp = msg.payload.temp_out_c;\nmsg.payload = temp;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 337,
+    "y": 520.0000076293945,
+    "wires": [
+      [
+        "bdf99ab2.246478",
+        "8c506593.32658"
+      ]
+    ]
+  },
+  {
+    "id": "bdf99ab2.246478",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 506.00001525878906,
+    "y": 486.00001525878906,
+    "wires": []
+  },
+  {
+    "id": "8c506593.32658",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "Is Cold?",
+    "func": "var temp = msg.payload;\nif (3.0 >= temp)\n    msg.payload = \"cold\";\nelse\n    msg.payload = \"warm\";\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 521,
+    "y": 540.0000076293945,
+    "wires": [
+      [
+        "cba4264c.d6362"
+      ]
+    ]
+  },
+  {
+    "id": "cba4264c.d6362",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 655,
+    "y": 502.00000762939453,
+    "wires": []
+  },
+  {
+    "id": "90b4298a.fddc3",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "MQTT sample2",
+    "topic": "",
+    "payload": "{\"rel_pressue\": \"29.8636\", \"wind_ave\": \"0.67\", \"rain\": \"0\", \"rainin\": \"0\", \"hum_in\": \"53\", \"temp_in_f\": \"63.0\", \"dailyrainin\": \"0.0944882\", \"wind_dir\": \"270\", \"temp_in_c\": \"17.2\", \"hum_out\": \"87\", \"dailyrain\": \"2.4\", \"wind_gust\": \"2.24\", \"idx\": \"2017-03-06 21:17:28\", \"temp_out_f\": \"37.4\", \"temp_out_c\": \"3.5\"}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 108,
+    "y": 573.0000076293945,
+    "wires": [
+      [
+        "442be450.481edc",
+        "35c03fd2.8929d"
+      ]
+    ]
+  },
+  {
+    "id": "35c03fd2.8929d",
+    "type": "change",
+    "z": "473b6f2e.8a153",
+    "name": "Get Temp",
+    "rules": [
+      {
+        "t": "move",
+        "p": "payload.temp_out_c",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 334,
+    "y": 590.0000076293945,
+    "wires": [
+      [
+        "8c506593.32658",
+        "bdf99ab2.246478"
+      ]
+    ]
+  },
+  {
+    "id": "b00e94ad.3c87e8",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "Tweet Time",
+    "func": "//var flowContext = this.context().flow;\nvar prev = flow.get('tweet-time')|| 0;\nvar now = new Date();\nflow.set('tweet-time', now);\nmsg.payload = \"Updated time from \" + prev + \" to \" + now;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 318.5,
+    "y": 58,
+    "wires": [
+      [
+        "86e2d741.0df5b8"
+      ]
+    ]
+  },
+  {
+    "id": "194f54b8.33cb1b",
+    "type": "twitter in",
+    "z": "473b6f2e.8a153",
+    "twitter": "135c3861.dce5a",
+    "tags": "llweather",
+    "user": "user",
+    "name": "llweather tweets",
+    "topic": "tweets",
+    "inputs": 0,
+    "x": 101.5,
+    "y": 28.71429443359375,
+    "wires": [
+      [
+        "b00e94ad.3c87e8",
+        "c933d292.f3aea",
+        "56e33122.52ebb"
+      ]
+    ]
+  },
+  {
+    "id": "ad03f237.bb562",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 714.4286041259766,
+    "y": 93.42855834960938,
+    "wires": []
+  },
+  {
+    "id": "c933d292.f3aea",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 275.8571472167969,
+    "y": 20.428573608398438,
+    "wires": []
+  },
+  {
+    "id": "37a34291.ef4dae",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "LastTweet",
+    "func": "// only warn once per hour\nvar warn_limit = 60 * 60 * 1000;\n// warn if more than 15 minutes since last tweet\nvar tweet_limit = 15 * 60 * 1000;\n\nvar prev = flow.get('tweet-time');\nvar warn = flow.get('warn-time');\nvar now = new Date();\n\nvar warn_delta = warn_limit;\nif (warn) {\n    warn_delta = now.valueOf() - warn.valueOf();\n}\n\nif (!prev) {\n    msg.payload = \"D bodonovan we never got a weather tweet\";\n    return msg;\n}\n\nvar msec_delta = now.valueOf() -prev.valueOf();\nif ((msec_delta >= tweet_limit) && (warn_delta >= warn_limit)) {\n\n    flow.set('warn-time', now);\n    var sec_delta = Math.floor(msec_delta /1000);\n    var min_delta = Math.floor(sec_delta /60);\n\n    msg.payload = \"D bodonovan last tweet \"+min_delta+\" min ago at \"+prev;\n    return msg;\n} else {\n    return null;\n}",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 295.49998474121094,
+    "y": 310.99998474121094,
+    "wires": [
+      [
+        "3f7adaa7.2045e6",
+        "9fcf72e9.f2047"
+      ]
+    ]
+  },
+  {
+    "id": "c445ad22.3694b",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "Sample Tweet",
+    "topic": "",
+    "payload": "15:28 GMT: Temperature: 12.6°C, Wind: W, 3 kph (ave), 5 kph (gust), Humidity: 51%, Hourly Rain 0.0 mm, Pressure: 1016 hPa",
+    "payloadType": "str",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 109.64285278320312,
+    "y": 66.85713958740234,
+    "wires": [
+      [
+        "56e33122.52ebb"
+      ]
+    ]
+  },
+  {
+    "id": "56e33122.52ebb",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "Parse",
+    "func": "var full = msg.payload;\n//19:57 GMT: Temperature: 10.1°C, Wind: S, 0 kph (ave), 1 kph (gust), Humidity: 72%, Hourly Rain 0.2 mm, Pressure: 1009 hPa,\nvar tlabel = \"Temperature: \";\nvar tend = \"°C\";\nvar tpos = full.indexOf(tlabel);\nif (tpos < 0) {\n    node.warn (\"Failed to parse temp from: \"+full);\n    return null;\n} else {\n    tpos += tlabel.length;\n}\nvar tendpos = full.indexOf(tend);\nif (tendpos < tpos) {\n    node.warn (\"Failed to parse temp from: \"+full);\n    return null;\n}\nvar temp_str = full.slice(tpos, tendpos);\n\nvar rlabel = \"Hourly Rain \";\nvar rend = \" mm\";\nvar rpos = full.indexOf(rlabel);\nif (rpos < 0) {\n    node.warn (\"Failed to parse rain from: \"+full);\n    return null;\n} else {\n    rpos += rlabel.length;\n}\nvar rendpos = full.indexOf(rend);\nif (rendpos < rpos) {\n    node.warn (\"Failed to parse rain from: \"+full);\n    return null;\n}\nvar rain_str = full.slice(rpos, rendpos);\n\nvar newMsg = {payload:{temp:Number(temp_str),rain:Number(rain_str),tweet:full}};\n\nreturn newMsg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 291.6428527832031,
+    "y": 103.00000762939453,
+    "wires": [
+      [
+        "86e2d741.0df5b8",
+        "1b8aded8.ea3641"
+      ]
+    ]
+  },
+  {
+    "id": "5562e16d.1e845",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "Sample Tweet2",
+    "topic": "",
+    "payload": "15:28 GMT: Temperature: 2.6°C, Wind: W, 3 kph (ave), 5 kph (gust), Humidity: 51%, Hourly Rain 0.6 mm, Pressure: 1016 hPa",
+    "payloadType": "str",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 111.42855834960938,
+    "y": 99.4285659790039,
+    "wires": [
+      [
+        "56e33122.52ebb"
+      ]
+    ]
+  },
+  {
+    "id": "cfbeb035.f6ba6",
+    "type": "inject",
+    "z": "473b6f2e.8a153",
+    "name": "Bad Tweet",
+    "topic": "",
+    "payload": "random tweet",
+    "payloadType": "str",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 94.42855834960938,
+    "y": 135.42855072021484,
+    "wires": [
+      [
+        "56e33122.52ebb"
+      ]
+    ]
+  },
+  {
+    "id": "3f7adaa7.2045e6",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 540.2000274658203,
+    "y": 340.2000274658203,
+    "wires": []
+  },
+  {
+    "id": "86e2d741.0df5b8",
+    "type": "debug",
+    "z": "473b6f2e.8a153",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "payload",
+    "x": 526.2000274658203,
+    "y": 62.19999694824219,
+    "wires": []
+  },
+  {
+    "id": "25018e75.f387f2",
+    "type": "cloudant out",
+    "z": "473b6f2e.8a153",
+    "name": "warn-log",
+    "cloudant": "",
+    "database": "warn",
+    "service": "bodonovan-cloudantNoSQLDB",
+    "payonly": false,
+    "operation": "insert",
+    "x": 721.2000274658203,
+    "y": 191.2000274658203,
+    "wires": []
+  },
+  {
+    "id": "1b8aded8.ea3641",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "Env",
+    "func": "var now = new Date();\nmsg.payload.time = now;\nvar hours = now.getHours();\n\nvar rain = msg.payload.rain;\nvar temp = msg.payload.temp;\n\nvar lastWarnRain = flow.get('last-rain-warn');\nif (!lastWarnRain) {\n    node.warn(\"Null lastWarnRain - set to \"+now);\n    flow.set('last-rain-warn', now);\n    lastWarnRain = now;\n}\nmsg.payload.lastWarnRain = lastWarnRain;\nvar delta = now.valueOf() - lastWarnRain.valueOf();\ndelta = delta / 1000;   // msec to sec\ndelta = delta /60;      // sec to min\ndelta = delta /60;      // min to hours\nmsg.payload.lastWarnRainDelta = delta;\n\nvar lastRain = flow.get('last-rain');\nif (!lastRain)\n    lastRain = 0.0;\nflow.set('last-rain', rain);\nmsg.payload.lastRain = lastRain;\nnode.warn (\"rain =\"+rain+\" lastRain=\"+lastRain+\" now=\"+now+\" lastWarnRain=\"+lastWarnRain+\" lastWarnRainDelta=\"+msg.payload.lastWarnRainDelta);\n\n\nvar lastWarnTemp = flow.get('last-temp-warn');\nif (!lastWarnTemp) {\n    node.warn(\"Null lastWarnTemp - set to \"+now);\n    flow.set('last-temp-warn', now);\n    lastWarnTemp = now;\n}\nmsg.payload.lastWarnTemp = lastWarnTemp;\ndelta = now.valueOf() - lastWarnTemp.valueOf();\ndelta = delta / 1000;   // msec to sec\ndelta = delta /60;      // sec to min\ndelta = delta /60;      // min to hours\nmsg.payload.lastWarnTempDelta = delta;\n\nvar lastTemp = flow.get('last-temp');\nif (!lastTemp)\n    lastTemp = 0.0;\nflow.set('last-temp', temp);\nmsg.payload.lastTemp = lastTemp;\nnode.warn (\"temp =\"+temp+\" lastTemp=\"+lastTemp+\" now=\"+now+\" lastWarnTemp=\"+lastWarnTemp+\" lastWarnTempDelta=\"+msg.payload.lastWarnTempDelta);\n\n\n// never warn before 7am\nif (hours<7)\n    return null;\nelse\n    return msg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 425.2000274658203,
+    "y": 145.1999969482422,
+    "wires": [
+      [
+        "fb6318c7.e201d8"
+      ]
+    ]
+  },
+  {
+    "id": "fb6318c7.e201d8",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "WarnDecide",
+    "func": "var tempLimit = 3.0;\nvar warnMin = 6.0;\n\n// should we warn about temp\nif ((msg.payload.lastWarnTempDelta>warnMin) && (msg.payload.lastTemp>=tempLimit) && (msg.payload.temp<tempLimit))\n    msg.payload.tempWarn = true;\nelse\n    msg.payload.tempWarn = false;\n\n// should we warn about rain\nif ((msg.payload.lastWarnRainDelta>warnMin) && (msg.payload.lastRain==\"0.0\") && (msg.payload.rain!=\"0.0\"))\n    msg.payload.rainWarn = true;\nelse\n    msg.payload.rainWarn = false;\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 504.90003967285156,
+    "y": 219.59999084472656,
+    "wires": [
+      [
+        "25018e75.f387f2",
+        "f903ecca.20645",
+        "3f6923ec.daa93c",
+        "ad03f237.bb562"
+      ]
+    ]
+  },
+  {
+    "id": "9fcf72e9.f2047",
+    "type": "twitter out",
+    "z": "473b6f2e.8a153",
+    "twitter": "135c3861.dce5a",
+    "name": "Tweet",
+    "x": 798.2000274658203,
+    "y": 312.2000274658203,
+    "wires": []
+  },
+  {
+    "id": "f903ecca.20645",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "RainTweet",
+    "func": "if (msg.payload.rainWarn) {\n    flow.set('last-rain-warn', msg.payload.time);\n    msg.payload = \"@bodonovan Rain just started - bring in the washing \"+msg.payload.time;\n    return msg;\n} else {\n    return null;\n}",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 708.9000396728516,
+    "y": 229.59999084472656,
+    "wires": [
+      [
+        "9fcf72e9.f2047"
+      ]
+    ]
+  },
+  {
+    "id": "3f6923ec.daa93c",
+    "type": "function",
+    "z": "473b6f2e.8a153",
+    "name": "TempWarn",
+    "func": "if (msg.payload.tempWarn) {\n    flow.set('last-temp-warn', msg.payload.time);\n    msg.payload = \"@bodonovan Temp has dropped to \"+temp+\"°C - you should wear a hat and gloves \"+msg.payload.time;\n    return msg;\n} else {\n    return null;\n}",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 660.9000396728516,
+    "y": 271.6000518798828,
+    "wires": [
+      [
+        "9fcf72e9.f2047"
+      ]
+    ]
+  }
+]
